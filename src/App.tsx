@@ -1,7 +1,7 @@
 import { About } from "./About";
 import { Footer } from "./Footer";
 import { Navigation } from "./Navigation";
-import { Services } from "./Services";
+import { Expertise } from "./Expertise";
 import { Testimonial } from "./Testimonial";
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
         </div>
       </div>
       <About />
-      <Services />
+      <Expertise />
       <Testimonial />
       <Footer />
     </>

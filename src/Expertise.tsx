@@ -1,4 +1,4 @@
-const SERVICES = [
+const EXPERTISE = [
   {
     title: "🚢 From vision to delivery",
     description:
@@ -31,15 +31,18 @@ const SERVICES = [
   },
 ];
 
-export const Services = () => {
+export const Expertise = () => {
   return (
-    <div id="services">
+    <div id="expertise">
       <section className="container mx-auto px-4 py-20 md:px-0">
-        <h2 className="mb-12 font-serif text-4xl font-semibold text-gray-600 md:text-5xl">
-          How I can support you
+        <h2 className="mb-4 font-semibold tracking-wider text-gray-500 uppercase">
+          Expertise
         </h2>
+        <p className="mb-12 font-serif text-4xl font-semibold text-gray-600 md:text-5xl">
+          How I can support you
+        </p>
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-3">
-          {SERVICES.map((service, index) => (
+          {EXPERTISE.map((service, index) => (
             <div key={index} className="rounded-xl bg-gray-50 p-6 shadow-sm">
               <h3 className="mb-2 font-serif text-xl font-semibold text-gray-600">
                 {service.title}
