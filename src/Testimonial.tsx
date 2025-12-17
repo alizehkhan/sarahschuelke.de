@@ -18,7 +18,7 @@ export const Testimonial = () => {
             🇩🇪 Germany
           </div>
         </div>
-        <blockquote className="relative">
+        <blockquote>
           <q className="text-lg">
             <p className="mb-4">
               Sarah's training was a complete success for our company and the

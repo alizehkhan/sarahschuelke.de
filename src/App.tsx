@@ -1,6 +1,7 @@
 import { About } from "./About";
 import { Footer } from "./Footer";
 import { Navigation } from "./Navigation";
+import { Services } from "./Services";
 import { Testimonial } from "./Testimonial";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         </div>
       </div>
       <About />
+      <Services />
       <Testimonial />
       <Footer />
     </>

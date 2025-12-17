@@ -15,7 +15,7 @@ export const Navigation = () => {
           {LINKS.map((link, index) => (
             <li key={index}>
               <a
-                className="text-lg hover:underline"
+                className="text-lg underline-offset-2 hover:underline"
                 href={`#${link.to}`}
                 // onClick={(event) => {
                 //   event?.preventDefault();

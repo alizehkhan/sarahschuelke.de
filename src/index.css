@@ -12,6 +12,10 @@
   --font-serif: "Source Serif 4", serif;
 }
 
+blockquote {
+  position: relative;
+}
+
 q::before {
   @apply md:absolute md:top-0 md:-left-48 md:font-serif md:text-[440px] md:leading-[0.2] md:text-gray-300 md:content-[open-quote];
 }
