@@ -2,7 +2,7 @@ import { IconMail, IconPhone } from "@tabler/icons-react";
 
 export const Footer = () => {
   return (
-    <div className="bg-gray-800 py-16 text-gray-100">
+    <div className="bg-gray-800 py-16 text-gray-100" id="contact">
       <div className="container">
         <h2 className="mb-4 font-semibold tracking-wider text-gray-300 uppercase">
           Contact

@@ -7,7 +7,8 @@ export const Testimonial = () => {
         <img src="/fritz.png" className="h-12" alt="" />
         <div className="my-2 font-semibold tracking-wide uppercase">FRITZ!</div>
         <p className="mb-4 font-serif text-4xl font-semibold">
-          Training Series "How to Work Well Together in Projects"
+          Sarah manages to convey complex content in a lively, structured, and
+          understandable way.
         </p>
         <div className="my-3 flex flex-wrap gap-1">
           <div className="flex w-fit items-center gap-1 rounded-full border border-gray-200 bg-white px-3 py-1 text-sm font-semibold">

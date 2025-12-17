@@ -35,13 +35,13 @@ export const Services = () => {
   return (
     <div id="services">
       <section className="container mx-auto px-4 py-20 md:px-0">
-        <h2 className="mb-12 font-serif text-4xl font-semibold text-gray-700 md:text-5xl">
+        <h2 className="mb-12 font-serif text-4xl font-semibold text-gray-600 md:text-5xl">
           How I can support you
         </h2>
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-3">
           {SERVICES.map((service, index) => (
             <div key={index} className="rounded-xl bg-gray-50 p-6 shadow-sm">
-              <h3 className="mb-2 font-serif text-xl font-semibold text-gray-700">
+              <h3 className="mb-2 font-serif text-xl font-semibold text-gray-600">
                 {service.title}
               </h3>
               <p className="text-gray-600">{service.description}</p>
