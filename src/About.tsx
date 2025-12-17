@@ -5,10 +5,10 @@ export const About = () => (
         <h2 className="mb-4 font-semibold tracking-wider text-gray-500 uppercase">
           About
         </h2>
-        <p className="font-serif text-6xl font-semibold text-gray-600 md:text-7xl">
+        <p className="font-serif text-5xl font-semibold text-gray-600 md:text-6xl">
           Hi, I'm Sarah
         </p>
-        <p className="mt-4 font-serif text-4xl leading-[1.15] tracking-[-0.5px] text-gray-500 md:text-5xl">
+        <p className="mt-4 font-serif text-3xl leading-[1.15] tracking-[-0.5px] text-gray-500 md:text-4xl">
           I am an experienced trainer, coach and product expert with a track
           record of building and managing successful products and teams.
         </p>

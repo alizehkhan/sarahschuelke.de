@@ -18,8 +18,8 @@ export const Testimonial = () => {
             🇩🇪 Germany
           </div>
         </div>
-        <blockquote>
-          <q className="text-lg leading-snug">
+        <blockquote className="relative">
+          <q className="text-lg">
             <p className="mb-4">
               Sarah's training was a complete success for our company and the
               impact was visible throughout the company: numerous employees
@@ -47,7 +47,7 @@ export const Testimonial = () => {
             />
             <cite className="block not-italic">
               <p className="font-semibold">Stephanie Blankenburg</p>
-              <p>Head of Personnel Development</p>
+              <p>Head of Personal Development</p>
             </cite>
           </div>
         </blockquote>
