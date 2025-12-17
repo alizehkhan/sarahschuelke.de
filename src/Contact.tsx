@@ -4,10 +4,10 @@ export const Contact = () => {
       <h2 className="mb-8 text-sm font-semibold tracking-wider text-gray-500 uppercase">
         Contact
       </h2>
-      <p className="font-serif text-4xl font-semibold tracking-[-1px] text-gray-600 md:text-5xl">
+      <p className="font-serif text-5xl font-semibold tracking-[-1px] text-gray-600 md:text-6xl">
         Get in touch
       </p>
-      <p className="mt-8 max-w-xl text-lg text-gray-600">
+      <p className="mt-8 max-w-xl text-xl text-gray-600">
         All my workshops are easily adapted for companies, and can be offered
         both in-person or online. I'm happy to explore your needs and offer a
         simple solution that delivers.

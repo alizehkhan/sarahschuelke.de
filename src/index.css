@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap");
 @import "tailwindcss";
 
 @utility container {
@@ -8,21 +7,12 @@
 
 @theme {
   --font-*: initial;
-  --font-sans: "Inter", sans-serif;
-  --font-serif: "Merriweather", serif;
+  --font-sans: "Source Sans 3", sans-serif;
+  --font-serif: "Source Serif 4", serif;
 }
 
-@media screen and (min-width: 720px) {
-  q::before {
-    content: open-quote;
-    font-size: 300px;
-    font-weight: bold;
-    font-family: "Merriweather", serif;
-    left: -180px;
-    top: -160px;
-    position: absolute;
-    color: rgb(209, 213, 219);
-  }
+q::before {
+  @apply md:absolute md:-top-[160px] md:-left-[180px] md:font-serif md:text-[300px] md:text-gray-500 md:content-[open-quote];
 }
 
 q::before {

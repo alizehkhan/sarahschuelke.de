@@ -5,10 +5,8 @@ export const Testimonial = () => {
     <div className="bg-gray-100 py-16 text-gray-500">
       <div className="mx-auto max-w-xl px-6">
         <img src="/fritz.png" className="h-12" alt="" />
-        <div className="my-2 text-xs font-semibold tracking-wide uppercase">
-          FRITZ!
-        </div>
-        <p className="mb-4 font-serif text-3xl font-semibold">
+        <div className="my-2 font-semibold tracking-wide uppercase">FRITZ!</div>
+        <p className="mb-4 font-serif text-4xl font-semibold">
           Training Series "How to Work Well Together in Projects"
         </p>
         <div className="my-3 flex flex-wrap gap-1">
@@ -21,7 +19,7 @@ export const Testimonial = () => {
           </div>
         </div>
         <blockquote>
-          <q>
+          <q className="text-lg leading-snug">
             <p className="mb-4">
               Sarah's training was a complete success for our company and the
               impact was visible throughout the company: numerous employees
