@@ -45,8 +45,8 @@ export const Testimonial = () => {
               alt=""
               className="size-12 rounded-full border-2 border-gray-700"
             />
-            <cite className="block">
-              <p className="font-bold">Stephanie Blankenburg</p>
+            <cite className="block not-italic">
+              <p className="font-semibold">Stephanie Blankenburg</p>
               <p>Head of Personnel Development</p>
             </cite>
           </div>

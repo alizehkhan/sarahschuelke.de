@@ -11,7 +11,7 @@ export const Navigation = () => {
         <a href="/" className="font-serif text-3xl hover:no-underline">
           Sarah Schülke
         </a>
-        <ul className="hidden gap-8 font-semibold md:flex">
+        <ul className="hidden gap-8 md:flex">
           {LINKS.map((link, index) => (
             <li key={index}>
               <a
