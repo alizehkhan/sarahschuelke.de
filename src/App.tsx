@@ -1,5 +1,4 @@
 import { About } from "./About";
-import { Footer } from "./Footer";
 import { Navigation } from "./Navigation";
 import { Expertise } from "./Expertise";
 import { Testimonial } from "./Testimonial";
@@ -24,7 +23,6 @@ function App() {
       <About />
       <Expertise />
       <Testimonial />
-      <Footer />
     </>
   );
 }
