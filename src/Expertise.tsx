@@ -1,53 +1,24 @@
-const EXPERTISE = [
-  {
-    title: "🚢 From vision to delivery",
-    description:
-      "I help product and project professionals prioritize what matters, make confident decisions, and take ideas all the way to delivery.",
-  },
-  {
-    title: "🤝 Working better together",
-    description:
-      "I support teams in strengthening collaboration, alignment, and trust so shared goals become achievable.",
-  },
-  {
-    title: "📹 Meetings that actually work",
-    description:
-      "I design and facilitate workshops and meetings that are focused, inclusive, and genuinely useful — not draining.",
-  },
-  {
-    title: "🌱 Growing as a professional",
-    description:
-      "I support individuals in developing communication, confidence, and sustainable ways of performing at their best.",
-  },
-  {
-    title: "🦁 Leading people well",
-    description:
-      "I work with leaders to combine clarity and empathy — leading people effectively while keeping business goals in sight.",
-  },
-  {
-    title: "🔍 An outside perspective",
-    description:
-      "I offer an outside perspective to uncover blind spots, improve ways of working, and create solutions that truly fit.",
-  },
+const ZONES = [
+  "🔍 Identifying potential, patterns, and weaknesses & implementing viable optimizations",
+  "🏗️ Structure & clarity",
+  "🤝 Relationship management & communication",
+  "🚀 Achieving impact while maintaining high satisfaction, motivation & good collaboration",
 ];
 
 export const Expertise = () => {
   return (
     <div id="expertise">
       <section className="container mx-auto px-4 py-20 md:px-0">
-        <h2 className="mb-4 font-semibold tracking-wider text-gray-500 uppercase">
-          Expertise
-        </h2>
-        <p className="mb-12 font-serif text-4xl font-semibold text-gray-600 md:text-5xl">
-          How I can support you
+        <p className="mb-6 font-serif text-3xl font-semibold text-gray-600 md:text-4xl">
+          My zones of genius
         </p>
-        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-3">
-          {EXPERTISE.map((service, index) => (
-            <div key={index} className="rounded-xl bg-gray-50 p-6 shadow-sm">
-              <h3 className="mb-2 font-serif text-xl font-semibold text-gray-600">
-                {service.title}
-              </h3>
-              <p className="text-gray-600">{service.description}</p>
+        <div className="space-y-4">
+          {ZONES.map((service, index) => (
+            <div
+              key={index}
+              className="mb-2 w-fit rounded-xl bg-gray-50 p-4 text-xl text-gray-600 shadow-sm"
+            >
+              {service}
             </div>
           ))}
         </div>
