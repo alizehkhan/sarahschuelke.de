@@ -1,5 +1,5 @@
 export const About = () => (
-  <div className="bg-gray-50 py-24" id="about">
+  <div className="py-20" id="about">
     <div className="container mx-auto grid grid-cols-2 gap-24">
       <div>
         <h2 className="mb-4 font-semibold tracking-wider text-gray-500 uppercase">

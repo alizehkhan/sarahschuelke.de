@@ -16,7 +16,7 @@ export const Navigation = () => {
             <li key={index}>
               <a
                 className="text-lg underline-offset-2 hover:underline"
-                href={`#${link.to}`}
+                href={`/#${link.to}`}
                 // onClick={(event) => {
                 //   event?.preventDefault();
                 //   refs[link.to].current?.scrollIntoView({
