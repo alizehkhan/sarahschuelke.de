@@ -16,8 +16,8 @@ function App() {
             Where structure meets empathy
           </h1>
           <p className="mt-2 max-w-100 text-2xl text-gray-500">
-            Training, consultancy, and coaching for product teams and leaders in
-            Germany.
+            Based in Berlin. Training, consultancy, and coaching for product
+            teams and leaders.
           </p>
           <a
             href="#contact"
