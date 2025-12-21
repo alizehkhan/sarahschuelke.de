@@ -4,6 +4,7 @@ import { Expertise } from "./Expertise";
 import { Testimonial } from "./Testimonial";
 import { Workshops } from "./Workshops";
 import { Services } from "./Services";
+import { Quote } from "./Quote";
 
 function App() {
   return (
@@ -15,12 +16,20 @@ function App() {
             Where structure meets empathy
           </h1>
           <p className="mt-2 max-w-100 text-2xl text-gray-500">
-            Training, consultancy, and coaching for product teams and leaders.
+            Training, consultancy, and coaching for product teams and leaders in
+            Germany.
           </p>
+          <a
+            href="#contact"
+            className="mt-4 inline-block rounded-md bg-amber-700 px-3 py-1.5 font-semibold text-white hover:bg-amber-800 active:bg-amber-900"
+          >
+            Get in touch
+          </a>
         </div>
       </div>
       <Services />
       <Workshops />
+      <Quote />
       <About />
       <Expertise />
       <Testimonial />

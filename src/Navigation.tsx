@@ -1,7 +1,7 @@
 const LINKS = [
   { name: "About", to: "about" },
+  { name: "Workshops", to: "workshops" },
   { name: "Testimonials", to: "testimonials" },
-  { name: "Offerings", to: "offerings" },
   { name: "Contact", to: "contact" },
 ];
 export const Navigation = () => {

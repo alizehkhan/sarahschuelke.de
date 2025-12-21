@@ -1,3 +1,4 @@
+import { IconBuilding, IconVideo } from "@tabler/icons-react";
 import { WorkshopCard } from "./WorkshopCard";
 
 const workshops = [
@@ -42,14 +43,27 @@ export const Workshops = () => {
   return (
     <div id="workshops">
       <section className="container mx-auto px-4 py-20 md:px-0">
-        <h2 className="mb-4 font-serif text-4xl font-semibold text-gray-600 md:text-5xl">
-          Signature Workshops
+        <h2 className="font-serif text-4xl font-semibold text-gray-600 md:text-5xl">
+          Signature workshops
         </h2>
-        <p className="mb-6 max-w-[70ch] text-lg text-gray-500">
-          Here are a few signature workshops I typically offer. We can also
-          design a session fully tailored to your team's needs. Workshops can be
-          held onsite at your offices or delivered remotely.
-        </p>
+        <div className="mt-6 mb-8 flex flex-col gap-8 md:flex-row">
+          <div className="flex gap-2 text-xl text-gray-700">
+            <p className="flex items-center gap-1">
+              <IconBuilding size={24} className="text-gray-400" />
+              On site
+            </p>
+            <p>|</p>
+            <p className="flex items-center gap-1">
+              <IconVideo size={24} className="text-gray-400" />
+              Remote
+            </p>
+          </div>
+          <div className="flex gap-2 text-xl text-gray-700">
+            <p>🇬🇧 English</p>
+            <p>|</p>
+            <p>🇩🇪 German</p>
+          </div>
+        </div>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {workshops.map((workshop, index) => (
             <WorkshopCard
