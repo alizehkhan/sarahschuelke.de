@@ -7,7 +7,7 @@ import { Workshops } from "./Workshops";
 function App() {
   return (
     <>
-      <div className="h-200 max-h-screen bg-[url('./sarah.jpg')] bg-cover bg-center">
+      <div className="h-200 max-h-screen bg-[url('/sarah.jpg')] bg-cover bg-center">
         <Navigation />
         <div className="container mx-auto mt-20 pb-8">
           <h1 className="max-w-120 font-serif text-6xl leading-tight font-semibold text-gray-600 md:text-[70px] md:leading-[1.12]">
