@@ -3,6 +3,7 @@ import { Navigation } from "./Navigation";
 import { Expertise } from "./Expertise";
 import { Testimonial } from "./Testimonial";
 import { Workshops } from "./Workshops";
+import { Services } from "./Services";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           </p>
         </div>
       </div>
+      <Services />
       <Workshops />
       <About />
       <Expertise />
