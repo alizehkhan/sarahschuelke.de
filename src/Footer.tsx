@@ -21,10 +21,13 @@ export const Footer = () => {
           +49 151 5030 0058
         </p>
 
-        <address className="mt-4 flex items-center gap-1 font-serif text-2xl text-gray-200 not-italic">
+        <a
+          href="mailto:kontakt@sarahschuelke.de"
+          className="mt-4 flex items-center gap-1 font-serif text-2xl text-gray-200 not-italic underline underline-offset-2"
+        >
           <IconMail size={24} stroke={1.5} />
           kontakt@sarahschuelke.de
-        </address>
+        </a>
 
         <div className="mt-12 flex gap-2 text-sm">
           © {new Date().getFullYear()} Sarah Schülke
@@ -41,7 +44,7 @@ export const Footer = () => {
               className="underline underline-offset-2"
               rel="noreferrer"
             >
-              Alizeh
+              Alizeh Khan
             </a>
           </p>
         </div>

@@ -6,10 +6,7 @@ import { Testimonial } from "./Testimonial";
 function App() {
   return (
     <>
-      <head>
-        <title>Sarah Schülke - Project Management Trainer</title>
-      </head>
-      <div className="h-[800px] max-h-screen bg-[url('./sarah.jpg')] bg-cover bg-center">
+      <div className="h-200 max-h-screen bg-[url('./sarah.jpg')] bg-cover bg-center">
         <Navigation />
         <div className="container mx-auto mt-20 pb-8">
           <h1 className="max-w-120 font-serif text-5xl leading-tight font-semibold text-gray-600 md:text-6xl md:leading-[1.12]">

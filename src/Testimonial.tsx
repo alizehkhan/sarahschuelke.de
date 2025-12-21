@@ -16,7 +16,10 @@ export const Testimonial = () => {
             In-person
           </div>
           <div className="flex w-fit items-center gap-1 rounded-full border border-gray-200 bg-white px-3 py-1 text-sm font-semibold">
-            🇩🇪 Germany
+            Training series
+          </div>
+          <div className="flex w-fit items-center gap-1 rounded-full border border-gray-200 bg-white px-3 py-1 text-sm font-semibold">
+            Collaboration in projects
           </div>
         </div>
         <blockquote>
