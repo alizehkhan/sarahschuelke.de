@@ -29,8 +29,8 @@ export const Footer = () => {
         <div className="mt-12 flex gap-2 text-sm">
           © {new Date().getFullYear()} Sarah Schülke
           <p>|</p>
-          <a href="/legal-notice" className="underline underline-offset-2">
-            Legal Notice
+          <a href="/impressum" className="underline underline-offset-2">
+            Impressum
           </a>{" "}
           <p>|</p>
           <p>
