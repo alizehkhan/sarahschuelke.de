@@ -1,7 +1,7 @@
 export const Quote = () => {
   return (
     <div className="bg-gray-100 py-20">
-      <section className="container mx-auto">
+      <section className="container">
         <p className="max-w-[700px] font-serif text-5xl text-gray-600">
           Putting an end to inefficiencies, demotivation, unresolved conflicts,
           and <span className="text-amber-700 italic">untapped potential</span>.

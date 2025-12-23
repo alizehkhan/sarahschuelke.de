@@ -43,7 +43,7 @@ const workshops = [
 export const Workshops = () => {
   return (
     <div id="workshops">
-      <section className="container mx-auto px-4 py-20 md:px-0">
+      <section className="container py-20">
         <h2 className="font-serif text-4xl font-semibold text-gray-600 md:text-5xl">
           Signature workshops
         </h2>

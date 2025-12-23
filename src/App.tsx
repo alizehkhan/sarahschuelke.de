@@ -1,5 +1,6 @@
 import { Navigation } from "./Navigation";
 import { About } from "./sections/About";
+import { Approach } from "./sections/Approach";
 import { Expertise } from "./sections/Expertise";
 import { Quote } from "./sections/Quote";
 import { Services } from "./sections/Services";
@@ -11,7 +12,7 @@ function App() {
     <>
       <div className="h-200 max-h-screen bg-[url('/sarah.jpg')] bg-cover bg-center">
         <Navigation />
-        <div className="container mx-auto mt-20 pb-8">
+        <div className="container mt-20 pb-8">
           <h1 className="max-w-120 font-serif text-6xl leading-tight font-semibold text-gray-600 md:text-[70px] md:leading-[1.12]">
             Where structure meets empathy
           </h1>
@@ -31,6 +32,7 @@ function App() {
       <Workshops />
       <Quote />
       <About />
+      <Approach />
       <Expertise />
       <Testimonial />
     </>
