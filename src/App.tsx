@@ -1,10 +1,10 @@
-import { About } from "./About";
 import { Navigation } from "./Navigation";
-import { Expertise } from "./Expertise";
-import { Testimonial } from "./Testimonial";
-import { Workshops } from "./Workshops";
-import { Services } from "./Services";
-import { Quote } from "./Quote";
+import { Testimonial } from "./sections/Testimonial";
+import { Services } from "./sections/Services";
+import { Workshops } from "./sections/Workshops";
+import { Quote } from "./sections/Quote";
+import { About } from "./sections/About";
+import { Expertise } from "./sections/Expertise";
 
 function App() {
   return (

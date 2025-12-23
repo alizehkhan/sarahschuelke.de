@@ -1,8 +1,8 @@
 export const Services = () => {
   return (
     <div className="bg-gray-800 py-24">
-      <section className="container grid grid-cols-1 gap-12 md:grid-cols-3">
-        <div>
+      <section className="container flex justify-center gap-12">
+        <div className="max-w-80">
           <h2 className="mb-2 font-serif text-3xl font-semibold text-gray-200">
             Coaching
           </h2>
@@ -10,7 +10,7 @@ export const Services = () => {
             Getting support in developing personally and professionally
           </p>
         </div>
-        <div>
+        <div className="max-w-80">
           <h2 className="mb-2 font-serif text-3xl font-semibold text-gray-200">
             Moderation & Facilitation
           </h2>
@@ -19,7 +19,7 @@ export const Services = () => {
             to a company's success.
           </p>
         </div>
-        <div>
+        <div className="max-w-80">
           <h2 className="mb-2 font-serif text-3xl font-semibold text-gray-200">
             Consulting
           </h2>

@@ -1,6 +1,6 @@
 import { IconMail, IconPhone } from "@tabler/icons-react";
 
-export const Footer = () => {
+export const Contact = () => {
   return (
     <div className="bg-gray-800 py-16 text-gray-100" id="contact">
       <div className="container">

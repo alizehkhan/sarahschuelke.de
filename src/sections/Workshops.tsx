@@ -1,5 +1,5 @@
 import { IconBuilding, IconVideo } from "@tabler/icons-react";
-import { WorkshopCard } from "./WorkshopCard";
+import { WorkshopCard } from "../WorkshopCard";
 
 const workshops = [
   {
@@ -52,16 +52,14 @@ export const Workshops = () => {
               <IconBuilding size={24} className="text-gray-400" />
               On site
             </p>
-            <p>|</p>
+            |
             <p className="flex items-center gap-1">
               <IconVideo size={24} className="text-gray-400" />
               Remote
             </p>
           </div>
           <div className="flex gap-2 text-xl text-gray-700">
-            <p>🇬🇧 English</p>
-            <p>|</p>
-            <p>🇩🇪 German</p>
+            <p>🇬🇧 English</p>|<p>🇩🇪 German</p>
           </div>
         </div>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
