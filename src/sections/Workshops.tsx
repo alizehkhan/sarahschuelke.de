@@ -1,4 +1,5 @@
 import { IconBuilding, IconVideo } from "@tabler/icons-react";
+
 import { WorkshopCard } from "../WorkshopCard";
 
 const workshops = [

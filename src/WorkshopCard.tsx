@@ -1,4 +1,5 @@
 import { IconClock } from "@tabler/icons-react";
+
 import { Chip } from "./Chip";
 
 interface WorkshopCardProps {
