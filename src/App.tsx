@@ -28,13 +28,13 @@ function App() {
           </a>
         </div>
       </div>
-      <Services />
       <Workshops />
       <Quote />
       <About />
       <Approach />
       <Expertise />
       <Testimonial />
+      <Services />
     </>
   );
 }

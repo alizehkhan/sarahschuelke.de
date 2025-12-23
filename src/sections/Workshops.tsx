@@ -44,7 +44,7 @@ export const Workshops = () => {
   return (
     <div id="workshops">
       <section className="container py-20">
-        <h2 className="font-serif text-4xl font-semibold text-gray-600 md:text-5xl">
+        <h2 className="font-serif text-4xl font-semibold text-gray-600 md:text-8xl md:text-gray-400">
           Signature workshops
         </h2>
         <div className="mt-6 mb-8 flex flex-col gap-8 md:flex-row">
