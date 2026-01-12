@@ -26,13 +26,13 @@ export const Contact = () => {
           kontakt@sarahschuelke.de
         </p>
 
-        <div className="mt-12 flex gap-2 text-sm">
+        <div className="mt-12 flex flex-col gap-2 text-sm md:flex-row">
           © {new Date().getFullYear()} Sarah Schülke
-          <p>|</p>
+          <p className="hidden md:block">|</p>
           <a href="/impressum" className="underline underline-offset-2">
             Impressum
           </a>{" "}
-          <p>|</p>
+          <p className="hidden md:block">|</p>
           <p>
             Website by {""}
             <a
