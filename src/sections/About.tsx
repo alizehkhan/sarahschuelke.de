@@ -2,44 +2,48 @@ import { Approach } from "../components/Approach";
 
 export const About = () => (
   <div className="py-20" id="about">
-    <div className="container grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-24">
-      <div>
-        <h2 className="mb-4 font-semibold tracking-wider text-gray-500 uppercase">
-          About
-        </h2>
-        <p className="font-serif text-5xl font-semibold text-gray-600 md:text-6xl">
-          Hi, I'm Sarah
-        </p>
+    <div className="container">
+      <h2 className="mb-4 font-semibold tracking-wider text-gray-500 uppercase">
+        About
+      </h2>
+      <p className="my-4 font-serif text-5xl font-semibold text-gray-600 md:text-6xl">
+        Hi, I'm Sarah
+      </p>
+      <p className="my-4 font-serif text-5xl font-semibold text-gray-400 md:text-8xl">
+        Trainer. Coach. Consultant.
+      </p>
+      <div className="max-w-[740px]">
         <p className="mt-4 font-serif text-3xl leading-[1.15] tracking-[-0.5px] text-gray-500 md:text-4xl">
-          I am an experienced trainer, coach and product expert with a track
-          record of building and managing successful products and teams.
+          With a strong track record in building and managing successful
+          products and teams.
         </p>
         <Approach />
       </div>
-      <div>
-        <p className="mt-6 text-xl text-gray-600">
-          I have a unique ability to analyze and empathize with a given
-          challenge or situation extremely fast. Developing a vision how to
-          tackle it and then executing the strategy to get there reliably and
-          successfully, was my bread and butter for 10 years. Most important for
-          me: while moving forward making sure everyone is on board, aligned and
-          motivated - leveraging everyone's strengths.
+      <div className="mt-12 max-w-[70ch]">
+        <p className="text-xl text-gray-600">
+          I have a unique ability to <b>analyze and empathize fast</b>, even in
+          complex situations. For over <b>10 years</b>, developing a{" "}
+          <b>clear vision</b> and <b>executing strategies reliably</b> was my
+          bread and butter. Most important to me: moving forward while keeping
+          everyone <b>aligned, motivated, and on board</b> - by leveraging
+          <b> individual strengths</b>.
         </p>
         <p className="mt-6 text-xl text-gray-600">
-          People know me for my structured and solution-focused way of working.
-          Simultaneously, they value me for my ability to make people feel
-          included, heard and seen. My workshops and facilitations have proven
-          to bring clarity, alignment and focus - while also being enjoyable.
+          People know me for my <b>structured, solution-focused way</b> of
+          working. At the same time, they value my ability to make people feel
+          <b>included, heard, and seen</b>. My workshops and facilitations have
+          proven to bring <b>clarity, alignment, and focus</b> - while also
+          being <b>enjoyable</b>.
         </p>
         <p className="mt-6 text-xl text-gray-600">
-          In my career in a double-digit growing, listed company I learned the
-          importance of working efficiently and effectively to find solutions,
-          focus on customers, and create value. I am always seeking ways to
-          improve processes and people and make the most of every interaction.
+          Working in a <b>fast-growing, listed company</b> taught me to act
+          efficiently and effectively, <b>creating real value</b> for customers
+          and the business. I’m always keen to improve
+          <b> processes and collaboration</b>. And I enjoy new challenges and
+          designing <b>solutions that simply work</b>.
         </p>
         <p className="mt-6 text-xl text-gray-600">
-          I enjoy facing new situations and challenges and tailoring solutions
-          that simply work. And now I'm curious how I could support you.
+          And now I’m curious: <b>how could I support you?</b>
         </p>
       </div>
     </div>

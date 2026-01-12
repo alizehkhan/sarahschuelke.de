@@ -35,6 +35,6 @@ q::after {
   font-synthesis: none;
 }
 
-strong {
+b {
   @apply font-semibold;
 }
