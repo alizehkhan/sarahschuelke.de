@@ -1,11 +1,11 @@
-import { IconClock } from "@tabler/icons-react";
+import { IconClock, type ReactNode } from "@tabler/icons-react";
 
 import { Chip } from "./Chip";
 
 interface WorkshopCardProps {
   title: string;
   chips: string[];
-  description: string;
+  description: ReactNode;
   duration: string;
 }
 

@@ -34,3 +34,7 @@ q::after {
   -webkit-font-smoothing: antialiased;
   font-synthesis: none;
 }
+
+strong {
+  @apply font-semibold;
+}
