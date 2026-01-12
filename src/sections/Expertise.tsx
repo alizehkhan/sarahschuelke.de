@@ -7,22 +7,20 @@ const ZONES = [
 
 export const Expertise = () => {
   return (
-    <div id="expertise">
-      <section className="container py-20">
-        <p className="mb-6 font-serif text-3xl font-semibold text-gray-600 md:text-5xl">
-          My Zones of Genius
-        </p>
-        <div className="grid grid-cols-2 gap-4">
-          {ZONES.map((service, index) => (
-            <div
-              key={index}
-              className="mb-2 rounded-xl border-2 border-white bg-gray-50 p-4 text-xl text-gray-600 drop-shadow-sm"
-            >
-              {service}
-            </div>
-          ))}
-        </div>
-      </section>
-    </div>
+    <section className="container pb-20">
+      <p className="mb-6 font-serif text-3xl font-semibold text-gray-600 md:text-5xl">
+        My Zones of Genius
+      </p>
+      <div className="grid grid-cols-2 gap-4">
+        {ZONES.map((service, index) => (
+          <div
+            key={index}
+            className="mb-2 rounded-xl border-2 border-white bg-gray-50 p-4 text-xl text-gray-600 drop-shadow-sm"
+          >
+            {service}
+          </div>
+        ))}
+      </div>
+    </section>
   );
 };
