@@ -12,7 +12,11 @@ function App() {
       <div className="h-200 max-h-screen bg-transparent bg-cover md:bg-[url('/sarah.jpg')]">
         <Navigation />
         <div className="container mt-0 pb-8 md:mt-20">
-          <img src="/sarah.jpg" alt="" className="mb-4 rounded-md" />
+          <img
+            src="/sarah.jpg"
+            alt=""
+            className="mb-4 block rounded-md md:hidden"
+          />
           <h1 className="max-w-124 font-serif text-6xl leading-tight font-semibold text-gray-600 md:text-[70px] md:leading-[1.12]">
             Where Structure Meets Empathy
           </h1>
