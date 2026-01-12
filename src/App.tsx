@@ -3,7 +3,6 @@ import { About } from "./sections/About";
 import { Approach } from "./sections/Approach";
 import { Expertise } from "./sections/Expertise";
 import { Quote } from "./sections/Quote";
-import { Services } from "./sections/Services";
 import { Testimonial } from "./sections/Testimonial";
 import { Workshops } from "./sections/Workshops";
 
@@ -33,7 +32,6 @@ function App() {
       <Approach />
       <Expertise />
       <Testimonial />
-      <Services />
     </>
   );
 }
