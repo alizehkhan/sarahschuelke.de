@@ -1,4 +1,4 @@
-import { Navigation } from "./Navigation";
+import { Navigation } from "./components/Navigation";
 import { About } from "./sections/About";
 import { Approach } from "./sections/Approach";
 import { Expertise } from "./sections/Expertise";

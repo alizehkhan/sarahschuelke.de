@@ -1,8 +1,8 @@
 const ZONES = [
-  "🔍 Identifying potential, patterns, and weaknesses & implementing viable optimizations",
-  "🏗️ Structure & clarity",
-  "🤝 Relationship management & communication",
-  "🚀 Achieving impact while maintaining high satisfaction, motivation & good collaboration",
+  "🔍 Identifying Potential, Patterns, and Weaknesses & Implementing Viable Optimisations",
+  "🏗️ Structure & Clarity",
+  "🤝 Relationship Management & Communication",
+  "🚀 Achieving Impact While Maintaining High Satisfaction, Motivation & Good Collaboration",
 ];
 
 export const Expertise = () => {
@@ -10,7 +10,7 @@ export const Expertise = () => {
     <div id="expertise">
       <section className="container py-20">
         <p className="mb-6 font-serif text-3xl font-semibold text-gray-600 md:text-5xl">
-          My zones of genius
+          My Zones of Genius
         </p>
         <div className="space-y-4">
           {ZONES.map((service, index) => (
