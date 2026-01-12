@@ -1,3 +1,5 @@
+import { Approach } from "../components/Approach";
+
 export const About = () => (
   <div className="py-20" id="about">
     <div className="container grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-24">
@@ -12,6 +14,7 @@ export const About = () => (
           I am an experienced trainer, coach and product expert with a track
           record of building and managing successful products and teams.
         </p>
+        <Approach />
       </div>
       <div>
         <p className="mt-6 text-xl text-gray-600">

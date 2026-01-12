@@ -1,6 +1,5 @@
 import { Navigation } from "./components/Navigation";
 import { About } from "./sections/About";
-import { Approach } from "./sections/Approach";
 import { Expertise } from "./sections/Expertise";
 import { Quote } from "./sections/Quote";
 import { Testimonial } from "./sections/Testimonial";
@@ -29,7 +28,6 @@ function App() {
       <Workshops />
       <Quote />
       <About />
-      <Approach />
       <Expertise />
       <Testimonial />
     </>
