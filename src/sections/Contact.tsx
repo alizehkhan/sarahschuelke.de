@@ -11,9 +11,9 @@ export const Contact = () => {
           Get in touch
         </p>
         <p className="mt-4 max-w-xl text-xl text-gray-400">
-          All my workshops are easily adapted for companies, and can be offered
-          both in-person or online. I'm happy to explore your needs and offer a
-          simple solution that delivers.
+          All my workshops can be easily adapted, and can be offered both
+          in-person or online. I'm happy to explore your needs and create a
+          solution that fits perfectly.
         </p>
 
         <p className="mt-4 flex items-center gap-1 font-serif text-2xl text-gray-200">

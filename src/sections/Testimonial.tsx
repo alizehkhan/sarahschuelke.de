@@ -2,7 +2,7 @@ import { IconBuildings } from "@tabler/icons-react";
 
 export const Testimonial = () => {
   return (
-    <div className="bg-gray-100 py-16 text-gray-500">
+    <div id="testimonials" className="bg-gray-100 py-16 text-gray-500">
       <div className="mx-auto max-w-xl px-6">
         <img src="/fritz.png" className="h-12" alt="" />
         <div className="my-2 font-semibold tracking-wide uppercase">FRITZ!</div>

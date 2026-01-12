@@ -4,36 +4,36 @@ import { WorkshopCard } from "../WorkshopCard";
 
 const workshops = [
   {
-    title: "Effective project collaboration",
+    title: "Effective Project Collaboration",
     chips: ["📁 Projects", "🤝🏼 Teams", "💬 Communication"],
     description:
       "Let's strive for projects with clear communication, high commitment, and engaged collaboration, where everyone knows what's going on and pulls together. For a project routine that's noticeably more structured, relaxed and enjoyable.",
     duration: "4 x 4 hour sessions",
   },
   {
-    title: "Embodied leadership",
+    title: "Embodied Leadership",
     chips: ["🦁 Leadership", "💪🏼 Power", "🧘🏼 Embodiment"],
     description:
       "Leadership trainings don't need to be dry and theoretical. For those keen to learn more about Embodied Leadership by experiencing it in and through the body - you're in for a treat. This is your invitation to explore power and impact in a different way and to learn how to lead from a place where people want to follow you.",
     duration: "Half day",
   },
   {
-    title: "Upleveled relational & communication skills",
+    title: "Upleveled Relational & Communication Skills",
     chips: ["👥 Relational", "💬 Communication"],
     description:
       "What leads to greater collaboration and trusting work relationships that help people excel? Increased interpersonal awareness and attunement, as well as communication that is recipient and needs focused - just to name a few ingredients. Learn hands-on where and how you can uplevel your skills.",
     duration: "Half day",
   },
   {
-    title: "Productivity and focus for teams",
-    chips: ["🪞 Reflection", "⏱️ Self-management"],
+    title: "Time For Excellence - Small Improvements, Great Impact",
+    chips: ["🪞 Reflection", "⏱️ Self-Management"],
     description:
       "When meeting marathons, endless to-do lists, reactiveness and too little time to think about what would really move the needle are one's reality, it's time to pause and course correct. A few small, field-tested improvements will show great impact. Enabling you to perform better while being more relaxed, fulfilled and creative.",
     duration: "Half day",
   },
   {
-    title: "The secret to building great teams",
-    chips: ["🤝🏼 Teams", "🌱 Soft skills"],
+    title: "The Secret to Building Great Teams",
+    chips: ["🤝🏼 Teams", "🌱 Soft Skills"],
     description:
       'You may have followed the common practices on how to build high- performing teams and yet you sense more is possible. But how to unlock that potential? Let\'s look at the (not so) "secret" ingredients often neglected. Let\'s learn how to introduce those "soft" factors and rituals that will show noticeable impact.',
     duration: "Half day",
@@ -42,7 +42,7 @@ const workshops = [
 
 export const Workshops = () => {
   return (
-    <div id="workshops">
+    <div id="offers">
       <section className="container py-20">
         <h2 className="font-serif text-4xl font-semibold text-gray-600 md:text-8xl md:text-gray-400">
           Signature workshops
