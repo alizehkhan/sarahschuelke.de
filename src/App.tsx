@@ -1,7 +1,6 @@
 import { Button } from "./components/Button";
 import { Navigation } from "./components/Navigation";
 import { About } from "./sections/About";
-import { Expertise } from "./sections/Expertise";
 import { Quote } from "./sections/Quote";
 import { Testimonial } from "./sections/Testimonial";
 import { Workshops } from "./sections/Workshops";
@@ -21,7 +20,7 @@ function App() {
             Where Structure Meets Empathy
           </h1>
           <p className="mt-2 max-w-100 text-2xl text-gray-500">
-            Trainings, coaching & consultancy for empowered teams and leaders.
+            Trainings, coaching and consultancy for empowered teams and leaders.
           </p>
           <Button href="#contact">Get in touch</Button>
         </div>
@@ -29,7 +28,6 @@ function App() {
       <Workshops />
       <Quote />
       <About />
-      <Expertise />
       <Testimonial />
     </>
   );

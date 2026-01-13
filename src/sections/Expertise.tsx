@@ -12,7 +12,7 @@ const ZONES = [
   },
   {
     emoji: <IconRocket size={32} />,
-    text: "Achieving impact while maintaining high satisfaction, motivation & good collaboration",
+    text: "Achieving impact while maintaining high satisfaction, motivation and good collaboration",
   },
   {
     emoji: <IconHeartHandshake size={32} />,
@@ -26,9 +26,9 @@ const ZONES = [
 
 export const Expertise = () => {
   return (
-    <section className="container pb-20">
-      <p className="mb-6 text-center font-serif text-3xl font-semibold text-gray-600 md:text-5xl">
-        My Zones of Genius
+    <section className="my-16">
+      <p className="mb-6 font-serif text-3xl font-semibold text-gray-600 md:text-4xl">
+        My zones of genius are...
       </p>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-4">
         {ZONES.map((zone, index) => (
