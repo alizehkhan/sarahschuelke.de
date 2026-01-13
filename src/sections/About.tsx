@@ -21,29 +21,35 @@ export const About = () => (
       </div>
       <div className="mt-12 max-w-[70ch]">
         <p className="text-xl text-gray-600">
-          I have a unique ability to <b>analyze and empathize fast</b>, even in
-          complex situations. For over <b>10 years</b>, developing a{" "}
-          <b>clear vision</b> and <b>executing strategies reliably</b> was my
-          bread and butter. Most important to me: moving forward while keeping
-          everyone <b>aligned, motivated, and on board</b> - by leveraging
-          <b> individual strengths</b>.
+          I have a unique ability to analyze and empathize fast, even in complex
+          situations. For over 10 years,{" "}
+          <span className="bg-amber-100 px-1 font-semibold text-amber-800">
+            developing a clear vision and executing strategies reliably was my
+            bread and butter
+          </span>
+          . Most important to me: moving forward while keeping everyone aligned,
+          motivated, and on board - by leveraging individual strengths.
         </p>
         <p className="mt-6 text-xl text-gray-600">
-          People know me for my <b>structured, solution-focused way</b> of
-          working. At the same time, they value my ability to make people feel
-          <b>included, heard, and seen</b>. My workshops and facilitations have
-          proven to bring <b>clarity, alignment, and focus</b> - while also
-          being <b>enjoyable</b>.
+          People know me for my structured, solution-focused way of working. At
+          the same time, they value{" "}
+          <span className="bg-amber-100 px-1 font-semibold text-amber-800">
+            my ability to make people feel included, heard, and seen
+          </span>
+          . My workshops and facilitations have proven to bring clarity,
+          alignment, and focus - while also being enjoyable.
         </p>
         <p className="mt-6 text-xl text-gray-600">
-          Working in a <b>fast-growing, listed company</b> taught me to act
-          efficiently and effectively, <b>creating real value</b> for customers
-          and the business. I’m always keen to improve
-          <b> processes and collaboration</b>. And I enjoy new challenges and
-          designing <b>solutions that simply work</b>.
+          <span className="bg-amber-100 px-1 font-semibold text-amber-800">
+            Working in a fast-growing, listed company taught me to act
+            efficiently and effectively
+          </span>
+          , creating real value for customers and the business. I’m always keen
+          to improve processes and collaboration. And I enjoy new challenges and
+          designing solutions that simply work.
         </p>
         <p className="mt-6 text-xl text-gray-600">
-          And now I’m curious: <b>how could I support you?</b>
+          And now I’m curious: how could I support you?
         </p>
       </div>
     </div>

@@ -2,15 +2,10 @@ import { IconBuildings } from "@tabler/icons-react";
 
 export const Testimonial = () => {
   return (
-    <div id="testimonials" className="bg-gray-100 py-16 text-gray-500">
+    <div id="testimonials" className="bg-gray-100 py-16 text-gray-600">
       <div className="mx-auto max-w-xl px-6">
-        <img src="/fritz.png" className="h-12" alt="" />
-        <div className="my-2 font-semibold tracking-wide uppercase">FRITZ!</div>
-        <p className="mb-4 font-serif text-4xl font-semibold">
-          Sarah manages to convey complex content in a lively, structured, and
-          understandable way.
-        </p>
-        <div className="my-3 flex flex-wrap gap-1">
+        <img src="/fritz.png" className="mb-3 h-16" alt="" />
+        <div className="mt-6 mb-4 flex flex-wrap gap-1">
           <div className="flex w-fit items-center gap-1 rounded-full border border-gray-200 bg-white px-3 py-1 text-sm font-semibold">
             <IconBuildings size={20} />
             In-person
@@ -23,24 +18,28 @@ export const Testimonial = () => {
           </div>
         </div>
         <blockquote>
-          <q className="text-lg">
+          <q className="font-serif text-lg">
             <p className="mb-4">
               Sarah's training was a complete success for our company and the
-              impact was visible throughout the company: numerous employees
-              recommended the training to their colleagues, and many immediately
-              began implementing new ideas and methods in their projects. The
-              increasing demand for more professional project management
-              ultimately led us to offer an advanced training course for our
-              project managers held by Sarah.
+              impact was visible throughout the company:{" "}
+              <span className="bg-amber-100 px-1 font-semibold text-amber-800">
+                numerous employees recommended the training to their colleagues
+              </span>
+              , and many immediately began implementing new ideas and methods in
+              their projects. The increasing demand for more professional
+              project management ultimately led us to offer an advanced training
+              course for our project managers held by Sarah.
             </p>
-            <p className="mb-4">
-              Sarah manages to convey complex content in a lively, structured,
-              and understandable way. Her friendly, open manner and the
-              pleasant, confident atmosphere she creates in the room enabled
-              honest, inspiring exchange. We can wholeheartedly recommend
-              Sarah's training - for all teams that want to improve their
-              collaboration, strengthen their project work, and achieve lasting
-              change in their company.
+            <p className="mb-8">
+              <span className="bg-amber-100 px-1 font-semibold text-amber-800">
+                Sarah manages to convey complex content in a lively, structured,
+                and understandable way.
+              </span>
+              Her friendly, open manner and the pleasant, confident atmosphere
+              she creates in the room enabled honest, inspiring exchange. We can
+              wholeheartedly recommend Sarah's training - for all teams that
+              want to improve their collaboration, strengthen their project
+              work, and achieve lasting change in their company.
             </p>
           </q>
           <div className="flex items-center gap-3">
