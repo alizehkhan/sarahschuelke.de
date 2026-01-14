@@ -29,14 +29,14 @@ const workshops = [
     chips: ["🪞 Reflection", "⏱️ Self-Management"],
     description:
       "When meeting marathons, endless to-do lists, reactiveness and too little time to think about what would really move the needle are one's reality, it's time to pause and course correct. A few small, field-tested improvements will show great impact. Enabling you to perform better while being more relaxed, fulfilled and creative.",
-    duration: "Half day",
+    duration: "2 hours",
   },
   {
     title: "The Secret to Building Great Teams",
     chips: ["🤝🏼 Teams", "🌱 Soft Skills"],
     description:
       'You may have followed the common practices on how to build high- performing teams and yet you sense more is possible. But how to unlock that potential? Let\'s look at the (not so) "secret" ingredients often neglected. Let\'s learn how to introduce those "soft" factors and rituals that will show noticeable impact.',
-    duration: "Half day",
+    duration: "3 hours",
   },
 ];
 
@@ -47,7 +47,7 @@ export const Workshops = () => {
         <h2 className="mb-4 font-semibold tracking-wider text-gray-500 uppercase">
           Offers
         </h2>
-        <p className="font-serif text-4xl font-semibold text-gray-600 md:text-8xl md:text-gray-400">
+        <p className="mb-8 font-serif text-6xl font-bold text-gray-600">
           Signature Workshops
         </p>
         <div className="mt-6 mb-8 flex flex-col gap-8 md:flex-row">

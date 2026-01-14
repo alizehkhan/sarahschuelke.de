@@ -1,5 +1,5 @@
 import { Approach } from "../components/Approach";
-import { Expertise } from "./Expertise";
+import { Zones } from "../components/Zones";
 
 export const About = () => (
   <div className="py-20" id="about">
@@ -7,14 +7,14 @@ export const About = () => (
       <h2 className="mb-4 font-semibold tracking-wider text-gray-500 uppercase">
         About
       </h2>
-      <p className="mt-4 font-serif text-3xl leading-[1.15] font-semibold tracking-[-0.5px] text-gray-600 md:text-4xl">
+      <p className="mt-4 font-serif text-3xl leading-[1.15] font-bold tracking-[-0.5px] text-gray-600 md:text-6xl">
         Hi, I'm Sarah
       </p>
-      <p className="mt-4 font-serif text-3xl leading-[1.15] font-semibold tracking-[-0.5px] text-gray-600 md:text-4xl">
+      <p className="mt-4 font-serif text-3xl leading-[1.15] font-semibold tracking-[-0.5px] text-gray-500 md:text-4xl">
         Trainer. Coach. Consultant.
       </p>
       <div className="max-w-[740px]">
-        <p className="mt-4 font-serif text-3xl leading-[1.15] font-semibold tracking-[-0.5px] text-gray-600 md:text-4xl">
+        <p className="mt-4 font-serif text-3xl leading-[1.15] font-semibold tracking-[-0.5px] text-gray-500 md:text-4xl">
           With a strong track record in building and managing successful
           products and teams.
         </p>
@@ -53,7 +53,7 @@ export const About = () => (
         </p>
       </div>
       <Approach />
-      <Expertise />
+      <Zones />
     </div>
   </div>
 );

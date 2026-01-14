@@ -1,6 +1,7 @@
 import { Button } from "./components/Button";
 import { Navigation } from "./components/Navigation";
 import { About } from "./sections/About";
+import { Expertise } from "./sections/Expertise";
 import { Quote } from "./sections/Quote";
 import { Testimonial } from "./sections/Testimonial";
 import { Workshops } from "./sections/Workshops";
@@ -16,8 +17,8 @@ function App() {
             alt=""
             className="mb-4 block rounded-md md:hidden"
           />
-          <h1 className="max-w-124 font-serif text-6xl leading-tight font-semibold text-gray-600 md:text-[70px] md:leading-[1.12]">
-            Where Structure Meets Empathy
+          <h1 className="max-w-140 font-serif text-6xl leading-tight font-bold text-gray-600 md:text-7xl md:leading-[1.12]">
+            Where structure meets empathy
           </h1>
           <p className="mt-2 max-w-100 text-2xl text-gray-500">
             Trainings, coaching and consultancy for empowered teams and leaders.
@@ -25,6 +26,7 @@ function App() {
           <Button href="#contact">Get in touch</Button>
         </div>
       </div>
+      <Expertise />
       <Workshops />
       <Quote />
       <About />

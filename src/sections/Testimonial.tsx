@@ -18,7 +18,7 @@ export const Testimonial = () => {
           </div>
         </div>
         <blockquote>
-          <q className="font-serif text-lg">
+          <q className="text-lg">
             <p className="mb-4">
               Sarah's training was a complete success for our company and the
               impact was visible throughout the company:{" "}
