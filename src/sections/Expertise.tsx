@@ -5,14 +5,17 @@ import {
 } from "@tabler/icons-react";
 
 export const Expertise = () => (
-  <section className="pt-20" id="expertise">
+  <section className="bg-gray-50 pt-20" id="expertise">
     <div className="container text-gray-600">
+      <p className="mb-4 font-semibold tracking-wider text-gray-500 uppercase">
+        Expertise
+      </p>
       <h2 className="mb-8 font-serif text-4xl leading-[1.15] font-bold tracking-[-0.5px] text-gray-600 md:text-6xl">
-        Areas of Expertise
+        Capabilities I can help you build
       </h2>
 
       <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
-        <div className="max-w-[500px] rounded-xl border border-gray-200 bg-gray-50 p-6">
+        <div className="max-w-[500px] rounded-xl border border-gray-200 bg-white p-6">
           <div className="mb-2 w-fit rounded-md bg-sky-100 p-2 text-sky-700">
             <IconFolderOpen size={32} />
           </div>
@@ -33,7 +36,7 @@ export const Expertise = () => (
           </ul>
         </div>
 
-        <div className="max-w-[500px] rounded-xl border border-gray-200 bg-gray-50 p-6">
+        <div className="max-w-[500px] rounded-xl border border-gray-200 bg-white p-6">
           <div className="mb-2 w-fit rounded-md bg-sky-100 p-2 text-sky-700">
             <IconUsersGroup size={32} />
           </div>
@@ -55,7 +58,7 @@ export const Expertise = () => (
           </ul>
         </div>
 
-        <div className="max-w-[500px] rounded-xl border border-gray-200 bg-gray-50 p-6">
+        <div className="max-w-[500px] rounded-xl border border-gray-200 bg-white p-6">
           <div className="mb-2 w-fit rounded-md bg-sky-100 p-2 text-sky-700">
             <IconTargetArrow size={32} />
           </div>

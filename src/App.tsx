@@ -32,7 +32,7 @@ function App() {
       <img
         src="/workshop.jpg"
         alt=""
-        className="mt-20 h-[400px] w-full object-cover object-top"
+        className="h-[400px] w-full object-cover object-top"
       />
       <Workshops />
       <Quote />

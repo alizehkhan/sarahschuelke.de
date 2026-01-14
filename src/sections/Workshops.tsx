@@ -48,7 +48,7 @@ export const Workshops = () => {
           Offers
         </p>
         <h2 className="mb-8 font-serif text-4xl leading-[1.15] font-bold tracking-[-0.5px] text-gray-600 md:text-6xl">
-          Signature Workshops
+          My signature workshops
         </h2>
         <div className="mt-6 mb-8 flex flex-col gap-8 md:flex-row">
           <div className="flex gap-2 text-xl text-gray-700">
