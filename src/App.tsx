@@ -29,6 +29,11 @@ function App() {
       </div>
       <Expertise />
       <Formats />
+      <img
+        src="/workshop.jpg"
+        alt=""
+        className="mt-20 h-[400px] w-full object-cover object-top"
+      />
       <Workshops />
       <Quote />
       <About />
