@@ -6,15 +6,12 @@ export const Testimonial = () => {
       <div className="mx-auto max-w-xl px-6">
         <img src="/fritz.png" className="mb-3 h-16" alt="" />
         <div className="mt-6 mb-4 flex flex-wrap gap-1">
-          <div className="flex w-fit items-center gap-1 rounded-full border border-gray-200 bg-white px-3 py-1 text-sm font-semibold">
+          <div className="flex w-fit items-center gap-1 rounded-md border border-gray-200 bg-white px-2 py-1 text-sm font-semibold">
             <IconBuildings size={20} />
             In-person
           </div>
-          <div className="flex w-fit items-center gap-1 rounded-full border border-gray-200 bg-white px-3 py-1 text-sm font-semibold">
-            Training series
-          </div>
-          <div className="flex w-fit items-center gap-1 rounded-full border border-gray-200 bg-white px-3 py-1 text-sm font-semibold">
-            Collaboration in projects
+          <div className="flex w-fit items-center gap-1 rounded-md border border-gray-200 bg-white px-2 py-1 text-sm font-semibold">
+            Training Series: Collaboration in Projects
           </div>
         </div>
         <blockquote>

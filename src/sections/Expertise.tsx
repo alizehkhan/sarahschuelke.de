@@ -23,7 +23,7 @@ export const Expertise = () => (
             Taking skills to the next level and overcoming common challenges
           </p>
           <ul className="list-disc space-y-0.5 pl-4.5">
-            <li>Prioritization and decision-making</li>
+            <li>Prioritisation and decision-making</li>
             <li>Increasing productivity and efficiency, time management</li>
             <li>Stakeholder communication and stakeholder management</li>
             <li>Vision, purpose and strategy</li>

@@ -20,15 +20,15 @@ export const Formats = () => (
             in these areas:
           </p>
           <ul className="list-disc space-y-0.5 pl-4.5">
-            <li>Effective Communication</li>
+            <li>Effective communication</li>
             <li>
-              Making a Convincing Impression, Asserting Oneself, and Setting
-              Boundaries
+              Making a convincing impression, asserting oneself, and setting
+              boundaries
             </li>
             <li>Self-confidence & self-marketing, esp. for women*</li>
             <li>Public image, presentation, and rhetoric</li>
             <li>Conflict management</li>
-            <li>Self-organization, prioritization, time management</li>
+            <li>Self-organisation, prioritisation, time management</li>
             <li>Healthy, sustainable high performance</li>
             <li>Stress management and resilience</li>
           </ul>
@@ -66,14 +66,14 @@ export const Formats = () => (
           </h3>
           <p className="mb-2">
             In need of an outsider's perspective on a specific topic? I am happy
-            to challenge the status quo and provide personalized solutions to
+            to challenge the status quo and provide personalised solutions to
             meet your unique needs. The process can encompass:
           </p>
           <ul className="list-disc space-y-0.5 pl-4.5">
             <li>Analysis of status quo</li>
             <li>
               Identification of inefficiencies, knowledge gaps, deviations from
-              desired state etc. and the resulting optimization potential
+              desired state etc. and the resulting optimisation potential
             </li>
             <li>Proposal of measures to get closer to the desired end state</li>
             <li>Support with trainings, mentoring etc.</li>
