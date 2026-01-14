@@ -2,6 +2,7 @@ import { Button } from "./components/Button";
 import { Navigation } from "./components/Navigation";
 import { About } from "./sections/About";
 import { Expertise } from "./sections/Expertise";
+import { Formats } from "./sections/Formats";
 import { Quote } from "./sections/Quote";
 import { Testimonial } from "./sections/Testimonial";
 import { Workshops } from "./sections/Workshops";
@@ -27,6 +28,7 @@ function App() {
         </div>
       </div>
       <Expertise />
+      <Formats />
       <Workshops />
       <Quote />
       <About />

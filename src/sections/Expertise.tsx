@@ -1,7 +1,7 @@
 import {
   IconFolderOpen,
-  IconHeartHandshake,
-  IconStar,
+  IconTargetArrow,
+  IconUsersGroup,
 } from "@tabler/icons-react";
 
 export const Expertise = () => (
@@ -9,7 +9,7 @@ export const Expertise = () => (
     <div className="container text-gray-600">
       <h2 className="mb-8 font-serif text-6xl font-bold">Areas of Expertise</h2>
 
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
         <div className="max-w-[500px] rounded-xl border border-gray-200 bg-gray-50 p-6">
           <div className="mb-2 w-fit rounded-md bg-sky-100 p-2 text-sky-700">
             <IconFolderOpen size={32} />
@@ -21,19 +21,19 @@ export const Expertise = () => (
             Taking skills to the next level and overcoming common challenges
           </p>
           <ul className="list-disc space-y-0.5 pl-4.5">
-            <li>Prioritization & decision-making</li>
-            <li>Increasing productivity & efficiency, time management</li>
-            <li>Stakeholder Communication & Stakeholder Management</li>
-            <li>Vision, purpose & strategy</li>
-            <li>Product discovery & delivery (Double-Diamond)</li>
-            <li>Managing complexity & uncertainty</li>
+            <li>Prioritization and decision-making</li>
+            <li>Increasing productivity and efficiency, time management</li>
+            <li>Stakeholder communication and stakeholder management</li>
+            <li>Vision, purpose and strategy</li>
+            <li>Product discovery and delivery (Double-Diamond)</li>
+            <li>Managing complexity and uncertainty</li>
             <li>PO/ PM mentoring</li>
           </ul>
         </div>
 
         <div className="max-w-[500px] rounded-xl border border-gray-200 bg-gray-50 p-6">
           <div className="mb-2 w-fit rounded-md bg-sky-100 p-2 text-sky-700">
-            <IconHeartHandshake size={32} />
+            <IconUsersGroup size={32} />
           </div>
           <h3 className="mb-2 text-xl font-semibold">
             Team-Building, Communication & Collaboration
@@ -45,7 +45,7 @@ export const Expertise = () => (
           <ul className="list-disc space-y-0.5 pl-4.5">
             <li>Building high-performing teams</li>
             <li>Team cohesion</li>
-            <li>Team goals & alignment</li>
+            <li>Team goals and alignment</li>
             <li>Better collaboration</li>
             <li>Recipient- and needs-oriented communication</li>
             <li>Conflict resolution</li>
@@ -55,7 +55,7 @@ export const Expertise = () => (
 
         <div className="max-w-[500px] rounded-xl border border-gray-200 bg-gray-50 p-6">
           <div className="mb-2 w-fit rounded-md bg-sky-100 p-2 text-sky-700">
-            <IconStar size={32} />
+            <IconTargetArrow size={32} />
           </div>
           <h3 className="mb-2 text-xl font-semibold">
             Leadership & Management
@@ -69,7 +69,7 @@ export const Expertise = () => (
             <li>Embodied leadership approach</li>
             <li>Professional relationship management</li>
             <li>Leading with emotional intelligence</li>
-            <li>Goal setting & achievement frameworks, e.g. OKRs</li>
+            <li>Goal setting and achievement frameworks, e.g. OKRs</li>
             <li>Empathic change management</li>
           </ul>
         </div>
