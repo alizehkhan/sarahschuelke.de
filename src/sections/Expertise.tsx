@@ -5,7 +5,7 @@ import {
 } from "@tabler/icons-react";
 
 export const Expertise = () => (
-  <section className="bg-gray-50 pt-20" id="expertise">
+  <section className="bg-gray-50 pb-20" id="expertise">
     <div className="container text-gray-600">
       <p className="mb-4 font-semibold tracking-wider text-gray-500 uppercase">
         Expertise

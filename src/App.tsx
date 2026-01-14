@@ -27,8 +27,8 @@ function App() {
           <Button href="#contact">Get in touch</Button>
         </div>
       </div>
-      <Expertise />
       <Formats />
+      <Expertise />
       <img
         src="/workshop.jpg"
         alt=""
