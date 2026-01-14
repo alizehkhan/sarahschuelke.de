@@ -7,7 +7,9 @@ import {
 export const Expertise = () => (
   <section className="pt-20" id="expertise">
     <div className="container text-gray-600">
-      <h2 className="mb-8 font-serif text-6xl font-bold">Areas of Expertise</h2>
+      <h2 className="mb-8 font-serif text-4xl leading-[1.15] font-bold tracking-[-0.5px] text-gray-600 md:text-6xl">
+        Areas of Expertise
+      </h2>
 
       <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
         <div className="max-w-[500px] rounded-xl border border-gray-200 bg-gray-50 p-6">

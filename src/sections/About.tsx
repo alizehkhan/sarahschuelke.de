@@ -4,12 +4,12 @@ import { Zones } from "../components/Zones";
 export const About = () => (
   <div className="py-20" id="about">
     <div className="container">
-      <h2 className="mb-4 font-semibold tracking-wider text-gray-500 uppercase">
+      <p className="mb-4 font-semibold tracking-wider text-gray-500 uppercase">
         About
-      </h2>
-      <p className="mt-4 font-serif text-3xl leading-[1.15] font-bold tracking-[-0.5px] text-gray-600 md:text-6xl">
-        Hi, I'm Sarah
       </p>
+      <h2 className="mt-4 font-serif text-4xl leading-[1.15] font-bold tracking-[-0.5px] text-gray-600 md:text-6xl">
+        Hi, I'm Sarah
+      </h2>
       <p className="mt-4 font-serif text-3xl leading-[1.15] font-semibold tracking-[-0.5px] text-gray-500 md:text-4xl">
         Trainer. Coach. Consultant.
       </p>

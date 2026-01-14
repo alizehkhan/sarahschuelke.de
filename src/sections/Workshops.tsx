@@ -44,12 +44,12 @@ export const Workshops = () => {
   return (
     <div id="offers">
       <section className="container py-20">
-        <h2 className="mb-4 font-semibold tracking-wider text-gray-500 uppercase">
+        <p className="mb-4 font-semibold tracking-wider text-gray-500 uppercase">
           Offers
-        </h2>
-        <p className="mb-8 font-serif text-6xl font-bold text-gray-600">
-          Signature Workshops
         </p>
+        <h2 className="mb-8 font-serif text-4xl leading-[1.15] font-bold tracking-[-0.5px] text-gray-600 md:text-6xl">
+          Signature Workshops
+        </h2>
         <div className="mt-6 mb-8 flex flex-col gap-8 md:flex-row">
           <div className="flex gap-2 text-xl text-gray-700">
             <p className="flex items-center gap-1">
