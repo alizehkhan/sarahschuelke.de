@@ -13,6 +13,7 @@
     "@tabler/icons-react": "^3.35.0",
     "@tailwindcss/vite": "^4.1.18",
     "@tanstack/react-router": "^1.141.6",
+    "@vercel/analytics": "^1.6.1",
     "prettier": "^3.7.4",
     "prettier-plugin-tailwindcss": "^0.7.2",
     "react": "^19.2.0",
