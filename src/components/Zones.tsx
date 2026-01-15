@@ -28,7 +28,7 @@ const ZONES = [
 export const Zones = () => {
   return (
     <section className="my-16">
-      <p className="mb-6 font-serif text-3xl font-semibold text-gray-600 md:text-4xl">
+      <p className="mb-6 font-serif text-2xl font-bold text-gray-600 md:text-3xl">
         My zones of genius are...
       </p>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-4">
@@ -37,7 +37,7 @@ export const Zones = () => {
             key={index}
             className="rounded-xl border border-gray-200 bg-white p-4 text-xl text-gray-600"
           >
-            <div className="mb-2 w-fit rounded-xl bg-sky-100 p-2 text-4xl text-sky-800">
+            <div className="mb-2 w-fit rounded-lg bg-sky-100 p-2 text-4xl text-sky-800">
               {zone.emoji}
             </div>
             {zone.text}

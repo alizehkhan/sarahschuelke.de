@@ -21,7 +21,7 @@ const approaches = [
 export const Approach = () => {
   return (
     <div>
-      <p className="mt-16 font-serif text-3xl font-semibold text-gray-600 md:text-4xl">
+      <p className="mt-16 font-serif text-2xl font-bold text-gray-600 md:text-3xl">
         My approach is...
       </p>
       <ul className="my-6 flex max-w-[740px] flex-wrap gap-2">

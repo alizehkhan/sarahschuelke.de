@@ -16,16 +16,9 @@ blockquote {
   position: relative;
 }
 
-q::before {
-  @apply md:absolute md:top-40 md:-left-48 md:font-serif md:text-[440px] md:leading-[0.2] md:text-gray-300 md:content-[open-quote];
-}
-
-q::before {
-  content: open-quote;
-}
-
+q::before,
 q::after {
-  @apply content-[close-quote] md:hidden;
+  @apply content-[''];
 }
 
 *,
