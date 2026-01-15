@@ -1,5 +1,6 @@
 import { IconBuilding, IconVideo } from "@tabler/icons-react";
 
+import { Button } from "../components/Button";
 import { WorkshopCard } from "../components/WorkshopCard";
 
 const workshops = [
@@ -42,10 +43,10 @@ const workshops = [
 
 export const Workshops = () => {
   return (
-    <div id="offers">
+    <div id="workshops">
       <section className="container py-20">
         <p className="mb-4 font-semibold tracking-wider text-gray-500 uppercase">
-          Offers
+          Workshops
         </p>
         <h2 className="mb-8 font-serif text-4xl leading-[1.15] font-bold tracking-[-0.5px] text-gray-600 md:text-6xl">
           My signature workshops
@@ -76,6 +77,18 @@ export const Workshops = () => {
               duration={workshop.duration}
             />
           ))}
+          <div className="flex flex-col justify-center rounded-lg border border-gray-200 bg-gray-50 p-6 text-center text-gray-700">
+            <p className="text-xl font-bold text-amber-700">
+              Not what you're looking for?
+            </p>
+            <p className="mt-4">
+              I love tailoring solutions to your individual needs. Let’s chat so
+              I can create a solution that fits perfectly for you.
+            </p>
+            <div className="mx-auto mt-2">
+              <Button href="#contact">Get in touch</Button>
+            </div>
+          </div>
         </div>
       </section>
     </div>

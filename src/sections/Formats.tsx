@@ -3,10 +3,10 @@ import { IconChartColumn, IconMessage, IconTrophy } from "@tabler/icons-react";
 import { Approach } from "../components/Approach";
 
 export const Formats = () => (
-  <section className="bg-gray-50 py-20" id="formats">
+  <section className="bg-gray-50 py-20" id="offers">
     <div className="container text-gray-600">
       <p className="mb-4 font-semibold tracking-wider text-gray-500 uppercase">
-        Formats
+        Offers
       </p>
       <h2 className="mb-8 font-serif text-4xl leading-[1.15] font-bold tracking-[-0.5px] text-gray-600 md:text-6xl">
         Ways we can work together

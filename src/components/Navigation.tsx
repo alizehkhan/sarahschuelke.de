@@ -1,5 +1,6 @@
 const LINKS = [
   { name: "Offers", to: "offers" },
+  { name: "Workshops", to: "workshops" },
   { name: "About", to: "about" },
   { name: "Testimonials", to: "testimonials" },
   { name: "Contact", to: "contact" },

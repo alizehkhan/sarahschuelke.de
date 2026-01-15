@@ -6,7 +6,7 @@ import {
 
 export const Testimonial = () => {
   return (
-    <div id="testimonials" className="py-16 text-gray-600">
+    <div id="testimonials" className="bg-gray-100 py-16 text-gray-600">
       <div className="container px-6">
         <div className="flex">
           <div>
@@ -28,9 +28,9 @@ export const Testimonial = () => {
                   the impact was visible throughout the company:{" "}
                   <span className="px-1 font-semibold text-amber-800">
                     numerous employees recommended the training to their
-                    colleagues
+                    colleagues.
                   </span>
-                  , and many immediately began implementing the new ideas and
+                  And many immediately began implementing the new ideas and
                   methods.
                 </p>
                 <p className="mb-8">
@@ -60,7 +60,7 @@ export const Testimonial = () => {
           </div>
           <IconQuoteFilled
             size={440}
-            className="hidden font-serif text-gray-100 md:block"
+            className="hidden font-serif text-gray-200 md:block"
           />
         </div>
       </div>
