@@ -37,7 +37,7 @@ export const Zones = () => {
             key={index}
             className="rounded-xl border border-gray-200 bg-white p-4 text-xl text-gray-600"
           >
-            <div className="mb-2 w-fit rounded-lg bg-sky-100 p-2 text-4xl text-sky-800">
+            <div className="mb-2 w-fit rounded-lg bg-sky-100 p-2 text-4xl text-sky-900">
               {zone.emoji}
             </div>
             {zone.text}

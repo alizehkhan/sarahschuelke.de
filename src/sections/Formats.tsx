@@ -14,7 +14,7 @@ export const Formats = () => (
 
       <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
         <div className="max-w-[500px] rounded-xl border border-gray-200 bg-white p-6">
-          <div className="mb-2 w-fit rounded-md bg-lime-100 p-2 text-lime-700">
+          <div className="mb-2 w-fit rounded-md bg-orange-100 p-2 text-orange-700">
             <IconTrophy size={32} />
           </div>
           <h3 className="mb-2 text-xl font-semibold">
@@ -25,22 +25,17 @@ export const Formats = () => (
             in these areas:
           </p>
           <ul className="list-disc space-y-0.5 pl-4.5">
-            <li>Effective communication</li>
+            <li>Effective communication & conflict resolution</li>
             <li>
               Making a convincing impression, asserting oneself, and setting
               boundaries
             </li>
-            <li>Self-confidence & self-marketing, esp. for women*</li>
-            <li>Public image, presentation, and rhetoric</li>
-            <li>Conflict management</li>
             <li>Self-organisation, prioritisation, time management</li>
-            <li>Healthy, sustainable high performance</li>
-            <li>Stress management and resilience</li>
           </ul>
         </div>
 
         <div className="max-w-[500px] rounded-xl border border-gray-200 bg-white p-6">
-          <div className="mb-2 w-fit rounded-md bg-lime-100 p-2 text-lime-700">
+          <div className="mb-2 w-fit rounded-md bg-orange-100 p-2 text-orange-700">
             <IconMessage size={32} />
           </div>
           <h3 className="mb-2 text-xl font-semibold">
@@ -49,21 +44,17 @@ export const Formats = () => (
           <p className="mb-2">
             Poorly facilitated plannings, workshops and meetings are detrimental
             to a company's success. I can support you and/or train you to run
-            excellent:
+            e.g. excellent:
           </p>
           <ul className="list-disc space-y-0.5 pl-4.5">
             <li>OKR planning & check-ins</li>
-            <li>Retrospectives, futurespectives</li>
-            <li>Conflict resolution within teams</li>
-            <li>Cycle or sprint plannings</li>
-            <li>Strategy & vision crafting</li>
-            <li>Design sprints</li>
-            <li>Double-Diamond-Processes (product development)</li>
+            <li>Agile ceremonies like retrospectives</li>
+            <li>Double-Diamond-Processes & design sprints</li>
           </ul>
         </div>
 
         <div className="max-w-[500px] rounded-xl border border-gray-200 bg-white p-6">
-          <div className="mb-2 w-fit rounded-md bg-lime-100 p-2 text-lime-700">
+          <div className="mb-2 w-fit rounded-md bg-orange-100 p-2 text-orange-700">
             <IconChartColumn size={32} />
           </div>
           <h3 className="mb-2 text-xl font-semibold">
@@ -72,18 +63,13 @@ export const Formats = () => (
           <p className="mb-2">
             In need of an outsider's perspective on a specific topic? I am happy
             to challenge the status quo and provide personalised solutions to
-            meet your unique needs. The process can encompass:
+            meet your unique needs. The process encompasses e.g.:
           </p>
           <ul className="list-disc space-y-0.5 pl-4.5">
-            <li>Analysis of status quo</li>
             <li>
-              Identification of inefficiencies, knowledge gaps, deviations from
-              desired state etc. and the resulting optimisation potential
+              Identifying inefficiencies, knowledge gaps, optimization potential
             </li>
-            <li>Proposal of measures to get closer to the desired end state</li>
-            <li>Support with trainings, mentoring etc.</li>
             <li>Impact review and further improvements</li>
-            <li>Areas and examples</li>
           </ul>
         </div>
       </div>

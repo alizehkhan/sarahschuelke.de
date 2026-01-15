@@ -15,14 +15,14 @@ const workshops = [
     chips: ["🦁 Leadership", "💪🏼 Power", "🧘🏼 Embodiment"],
     description:
       "Leadership trainings don't need to be dry and theoretical. For those keen to learn more about Embodied Leadership by experiencing it in and through the body - you're in for a treat. This is your invitation to explore power and impact in a different way and to learn how to lead from a place where people want to follow you.",
-    duration: "Half day",
+    duration: "4 hours",
   },
   {
     title: "Upleveled Relational & Communication Skills",
     chips: ["👥 Relational", "💬 Communication"],
     description:
       "What leads to greater collaboration and trusting work relationships that help people excel? Increased interpersonal awareness and attunement, as well as communication that is recipient and needs focused - just to name a few ingredients. Learn hands-on where and how you can uplevel your skills.",
-    duration: "Half day",
+    duration: "4 hours",
   },
   {
     title: "Time For Excellence - Small Improvements, Great Impact",
@@ -53,12 +53,12 @@ export const Workshops = () => {
         <div className="mt-6 mb-8 flex flex-col gap-6 md:flex-row">
           <div className="flex gap-2 text-xl text-gray-700">
             <p className="flex items-center gap-1">
-              <IconBuilding size={24} className="text-gray-400" />
+              <IconBuilding size={24} className="text-gray-500" />
               On-site
             </p>
             |
             <p className="flex items-center gap-1">
-              <IconVideo size={24} className="text-gray-400" />
+              <IconVideo size={24} className="text-gray-500" />
               Remote
             </p>
           </div>

@@ -18,7 +18,7 @@ export const Expertise = () => (
 
       <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
         <div className="max-w-[500px] rounded-xl border border-gray-200 bg-white p-6">
-          <div className="mb-2 w-fit rounded-md bg-sky-100 p-2 text-sky-700">
+          <div className="mb-2 w-fit rounded-md bg-sky-100 p-2 text-sky-900">
             <IconFolderOpen size={32} />
           </div>
           <h3 className="mb-2 text-xl font-semibold">
@@ -39,7 +39,7 @@ export const Expertise = () => (
         </div>
 
         <div className="max-w-[500px] rounded-xl border border-gray-200 bg-white p-6">
-          <div className="mb-2 w-fit rounded-md bg-sky-100 p-2 text-sky-700">
+          <div className="mb-2 w-fit rounded-md bg-sky-100 p-2 text-sky-900">
             <IconUsersGroup size={32} />
           </div>
           <h3 className="mb-2 text-xl font-semibold">
@@ -61,7 +61,7 @@ export const Expertise = () => (
         </div>
 
         <div className="max-w-[500px] rounded-xl border border-gray-200 bg-white p-6">
-          <div className="mb-2 w-fit rounded-md bg-sky-100 p-2 text-sky-700">
+          <div className="mb-2 w-fit rounded-md bg-sky-100 p-2 text-sky-900">
             <IconTargetArrow size={32} />
           </div>
           <h3 className="mb-2 text-xl font-semibold">
