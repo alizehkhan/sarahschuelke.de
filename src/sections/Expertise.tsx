@@ -28,7 +28,7 @@ export const Expertise = () => (
             Taking skills to the next level and overcoming common challenges,
             e.g.:
           </p>
-          <ul className="list-disc space-y-0.5 pl-4.5">
+          <ul className="list-disc space-y-0.5 pl-8">
             <li>Prioritisation & decision-making</li>
             <li>Stakeholder communication & management</li>
             <li>Better collaboration</li>
@@ -46,7 +46,7 @@ export const Expertise = () => (
             How well a team works together is crucial to productivity and
             efficiency. Hence, some areas at times need focus, e.g.:
           </p>
-          <ul className="list-disc space-y-0.5 pl-4.5">
+          <ul className="list-disc space-y-0.5 pl-8">
             <li>Team cohesion, goals & alignment</li>
             <li>Better communication & collaboration</li>
             <li>Conflict resolution</li>
@@ -65,7 +65,7 @@ export const Expertise = () => (
             people empathically and ensuring business success. I can help with,
             e.g.:
           </p>
-          <ul className="list-disc space-y-0.5 pl-4.5">
+          <ul className="list-disc space-y-0.5 pl-8">
             <li>Embodied leadership</li>
             <li>Professional relationship management</li>
             <li>Goal setting frameworks, e.g. OKRs</li>
