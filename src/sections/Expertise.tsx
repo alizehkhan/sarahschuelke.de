@@ -25,16 +25,13 @@ export const Expertise = () => (
             Product & Project Management
           </h3>
           <p className="mb-2">
-            Taking skills to the next level and overcoming common challenges
+            Taking skills to the next level and overcoming common challenges,
+            e.g.:
           </p>
           <ul className="list-disc space-y-0.5 pl-4.5">
-            <li>Prioritisation and decision-making</li>
-            <li>Increasing productivity and efficiency, time management</li>
-            <li>Stakeholder communication and stakeholder management</li>
-            <li>Vision, purpose and strategy</li>
-            <li>Product discovery and delivery (Double-Diamond)</li>
-            <li>Managing complexity and uncertainty</li>
-            <li>PO/ PM mentoring</li>
+            <li>Prioritisation & decision-making</li>
+            <li>Stakeholder communication & management</li>
+            <li>Better collaboration</li>
           </ul>
         </div>
 
@@ -47,16 +44,12 @@ export const Expertise = () => (
           </h3>
           <p className="mb-2">
             How well a team works together is crucial to productivity and
-            efficiency. Hence, the following areas at times need focus:
+            efficiency. Hence, some areas at times need focus, e.g.:
           </p>
           <ul className="list-disc space-y-0.5 pl-4.5">
-            <li>Building high-performing teams</li>
-            <li>Team cohesion</li>
-            <li>Team goals and alignment</li>
-            <li>Better collaboration</li>
-            <li>Recipient- and needs-oriented communication</li>
+            <li>Team cohesion, goals & alignment</li>
+            <li>Better communication & collaboration</li>
             <li>Conflict resolution</li>
-            <li>Efficient remote teamwork</li>
           </ul>
         </div>
 
@@ -69,14 +62,13 @@ export const Expertise = () => (
           </h3>
           <p className="mb-2">
             A leader these days needs to balance and master both - managing
-            people empathically and ensuring business success. This is what I
-            can help with:
+            people empathically and ensuring business success. I can help with,
+            e.g.:
           </p>
           <ul className="list-disc space-y-0.5 pl-4.5">
-            <li>Embodied leadership approach</li>
+            <li>Embodied leadership</li>
             <li>Professional relationship management</li>
-            <li>Leading with emotional intelligence</li>
-            <li>Goal setting and achievement frameworks, e.g. OKRs</li>
+            <li>Goal setting frameworks, e.g. OKRs</li>
             <li>Empathic change management</li>
           </ul>
         </div>

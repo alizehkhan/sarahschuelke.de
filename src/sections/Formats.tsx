@@ -49,7 +49,7 @@ export const Formats = () => (
           <ul className="list-disc space-y-0.5 pl-4.5">
             <li>OKR planning & check-ins</li>
             <li>Agile ceremonies like retrospectives</li>
-            <li>Double-Diamond-Processes & design sprints</li>
+            <li>Double diamond processes & design sprints</li>
           </ul>
         </div>
 
@@ -62,12 +62,12 @@ export const Formats = () => (
           </h3>
           <p className="mb-2">
             In need of an outsider's perspective on a specific topic? I am happy
-            to challenge the status quo and provide personalised solutions to
-            meet your unique needs. The process encompasses e.g.:
+            to challenge the status quo and provide personalised solutions. The
+            process encompasses e.g.:
           </p>
           <ul className="list-disc space-y-0.5 pl-4.5">
             <li>
-              Identifying inefficiencies, knowledge gaps, optimization potential
+              Identifying inefficiencies, knowledge gaps, optimisation potential
             </li>
             <li>Impact review and further improvements</li>
           </ul>
