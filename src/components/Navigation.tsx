@@ -7,7 +7,7 @@ const LINKS = [
 export const Navigation = () => {
   return (
     <header>
-      <nav className="container flex justify-between py-12 text-gray-700">
+      <nav className="container flex justify-between py-12 text-gray-800">
         <a href="/" className="font-serif text-3xl hover:no-underline">
           Sarah Schülke
         </a>

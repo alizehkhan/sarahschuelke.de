@@ -18,10 +18,10 @@ function App() {
             alt=""
             className="mb-4 block aspect-square rounded-md object-cover md:hidden"
           />
-          <h1 className="max-w-140 font-serif text-4xl leading-[1.12] font-bold text-gray-600 md:text-7xl">
+          <h1 className="max-w-140 font-serif text-4xl leading-[1.12] font-bold text-gray-700 md:text-7xl">
             Where structure meets empathy
           </h1>
-          <p className="mt-2 max-w-100 text-2xl text-gray-500">
+          <p className="mt-2 max-w-100 text-2xl text-gray-600">
             Trainings, coaching and consultancy for empowered teams and leaders.
           </p>
           <Button href="#contact">Get in touch</Button>
