@@ -26,15 +26,15 @@ export const Testimonial = () => {
                 <p className="mb-4">
                   Sarah's training was a complete success for our company and
                   the impact was visible throughout the company:{" "}
-                  <span className="px-1 font-semibold text-amber-800">
+                  <span className="font-semibold text-amber-800">
                     numerous employees recommended the training to their
-                    colleagues.
+                    colleagues
                   </span>
-                  And many immediately began implementing the new ideas and
+                  , and many immediately began implementing the new ideas and
                   methods.
                 </p>
                 <p className="mb-8">
-                  <span className="px-1 font-semibold text-amber-800">
+                  <span className="font-semibold text-amber-800">
                     Sarah manages to convey complex content in a lively,
                     structured, and understandable way.
                   </span>

@@ -21,7 +21,7 @@ export const About = () => (
           <p className="text-xl text-gray-600">
             I have a unique ability to analyze and empathize fast, even in
             complex situations. For over 10 years,{" "}
-            <span className="px-1 font-semibold text-amber-800">
+            <span className="font-semibold text-amber-800">
               developing a clear vision and executing strategies reliably was my
               bread and butter
             </span>
@@ -32,14 +32,14 @@ export const About = () => (
           <p className="mt-6 text-xl text-gray-600">
             People know me for my structured, solution-focused way of working.
             At the same time, they value{" "}
-            <span className="px-1 font-semibold text-amber-800">
+            <span className="font-semibold text-amber-800">
               my ability to make people feel included, heard, and seen
             </span>
             . My workshops and facilitations have proven to bring clarity,
             alignment, and focus - while also being enjoyable.
           </p>
           <p className="mt-6 text-xl text-gray-600">
-            <span className="px-1 font-semibold text-amber-800">
+            <span className="font-semibold text-amber-800">
               Working in a fast-growing, listed company taught me to act
               efficiently and effectively
             </span>
