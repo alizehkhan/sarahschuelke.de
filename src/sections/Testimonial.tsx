@@ -21,8 +21,8 @@ export const Testimonial = () => {
                 Training Series
               </div>
             </div>
-            <blockquote className="max-w-[60ch]">
-              <q className="text-lg">
+            <blockquote className="max-w-[50ch]">
+              <q className="text-lg leading-[1.4]">
                 <p className="mb-4">
                   Sarah's training was a complete success for our company and
                   the impact was visible throughout the company:{" "}

@@ -7,7 +7,7 @@ export const Contact = () => {
         <p className="mb-4 font-semibold tracking-wider text-gray-300 uppercase">
           Contact
         </p>
-        <p className="font-serif text-4xl font-semibold text-gray-200 md:text-6xl">
+        <p className="font-serif text-4xl font-bold text-gray-200 md:text-6xl">
           Get in touch
         </p>
         <p className="mt-4 max-w-xl text-xl text-gray-400">
