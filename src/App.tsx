@@ -16,9 +16,9 @@ function App() {
           <img
             src="/sarah.jpg"
             alt=""
-            className="mb-4 block rounded-md md:hidden"
+            className="mb-4 block aspect-square rounded-md object-cover md:hidden"
           />
-          <h1 className="max-w-140 font-serif text-6xl leading-tight font-bold text-gray-600 md:text-7xl md:leading-[1.12]">
+          <h1 className="max-w-140 font-serif text-4xl leading-[1.12] font-bold text-gray-600 md:text-7xl">
             Where structure meets empathy
           </h1>
           <p className="mt-2 max-w-100 text-2xl text-gray-500">
@@ -32,7 +32,7 @@ function App() {
       <img
         src="/workshop.jpg"
         alt=""
-        className="h-[400px] w-full object-cover object-top"
+        className="aspect-video w-full object-cover object-top md:aspect-16/7"
       />
       <Workshops />
       <Quote />

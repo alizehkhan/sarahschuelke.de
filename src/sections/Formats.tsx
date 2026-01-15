@@ -1,7 +1,7 @@
 import { IconChartColumn, IconMessage, IconTrophy } from "@tabler/icons-react";
 
 export const Formats = () => (
-  <section className="bg-gray-50 py-20" id="expertise">
+  <section className="bg-gray-50 py-20" id="formats">
     <div className="container text-gray-600">
       <p className="mb-4 font-semibold tracking-wider text-gray-500 uppercase">
         Formats
