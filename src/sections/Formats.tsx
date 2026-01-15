@@ -1,5 +1,7 @@
 import { IconChartColumn, IconMessage, IconTrophy } from "@tabler/icons-react";
 
+import { Approach } from "../components/Approach";
+
 export const Formats = () => (
   <section className="bg-gray-50 py-20" id="formats">
     <div className="container text-gray-600">
@@ -12,7 +14,7 @@ export const Formats = () => (
 
       <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
         <div className="max-w-[500px] rounded-xl border border-gray-200 bg-white p-6">
-          <div className="mb-2 w-fit rounded-md bg-amber-100 p-2 text-amber-700">
+          <div className="mb-2 w-fit rounded-md bg-lime-100 p-2 text-lime-700">
             <IconTrophy size={32} />
           </div>
           <h3 className="mb-2 text-xl font-semibold">
@@ -38,7 +40,7 @@ export const Formats = () => (
         </div>
 
         <div className="max-w-[500px] rounded-xl border border-gray-200 bg-white p-6">
-          <div className="mb-2 w-fit rounded-md bg-amber-100 p-2 text-amber-700">
+          <div className="mb-2 w-fit rounded-md bg-lime-100 p-2 text-lime-700">
             <IconMessage size={32} />
           </div>
           <h3 className="mb-2 text-xl font-semibold">
@@ -61,7 +63,7 @@ export const Formats = () => (
         </div>
 
         <div className="max-w-[500px] rounded-xl border border-gray-200 bg-white p-6">
-          <div className="mb-2 w-fit rounded-md bg-amber-100 p-2 text-amber-700">
+          <div className="mb-2 w-fit rounded-md bg-lime-100 p-2 text-lime-700">
             <IconChartColumn size={32} />
           </div>
           <h3 className="mb-2 text-xl font-semibold">
@@ -85,6 +87,7 @@ export const Formats = () => (
           </ul>
         </div>
       </div>
+      <Approach />
     </div>
   </section>
 );

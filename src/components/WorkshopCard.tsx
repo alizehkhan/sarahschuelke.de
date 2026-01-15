@@ -17,9 +17,7 @@ export const WorkshopCard = ({
 }: WorkshopCardProps) => {
   return (
     <div className="rounded-lg border border-gray-200 bg-gray-50 p-6">
-      <h3 className="mb-2 font-serif text-xl font-semibold text-gray-600">
-        {title}
-      </h3>
+      <h3 className="mb-2 text-xl font-semibold text-gray-600">{title}</h3>
       <div className="mb-2 flex flex-wrap gap-1">
         {chips.map((chip, index) => (
           <Chip key={index}>{chip}</Chip>

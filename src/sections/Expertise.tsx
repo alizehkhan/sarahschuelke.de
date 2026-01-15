@@ -4,6 +4,8 @@ import {
   IconUsersGroup,
 } from "@tabler/icons-react";
 
+import { Zones } from "../components/Zones";
+
 export const Expertise = () => (
   <section className="bg-gray-50 pb-20" id="expertise">
     <div className="container text-gray-600">
@@ -79,6 +81,7 @@ export const Expertise = () => (
           </ul>
         </div>
       </div>
+      <Zones />
     </div>
   </section>
 );

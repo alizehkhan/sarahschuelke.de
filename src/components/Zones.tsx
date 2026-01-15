@@ -20,6 +20,7 @@ const ZONES = [
   },
   {
     emoji: <IconBuildingBridge size={32} />,
+
     text: "Structure and clarity",
   },
 ];
@@ -27,14 +28,14 @@ const ZONES = [
 export const Zones = () => {
   return (
     <section className="my-16">
-      <p className="mb-6 font-serif text-3xl font-semibold text-gray-500 md:text-4xl">
+      <p className="mb-6 font-serif text-3xl font-semibold text-gray-600 md:text-4xl">
         My zones of genius are...
       </p>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-4">
         {ZONES.map((zone, index) => (
           <div
             key={index}
-            className="rounded-xl border-2 border-white bg-gray-50 p-4 text-xl text-gray-600 drop-shadow-sm"
+            className="rounded-xl border border-gray-200 bg-white p-4 text-xl text-gray-600"
           >
             <div className="mb-2 w-fit rounded-xl bg-sky-100 p-2 text-4xl text-sky-800">
               {zone.emoji}
