@@ -5,8 +5,6 @@ import {
   IconSearch,
 } from "@tabler/icons-react";
 
-const ICON_SIZE = 32;
-
 const ZONES = [
   {
     Icon: IconSearch,
@@ -41,7 +39,7 @@ export const Zones = () => {
               className="rounded-xl border border-gray-200 bg-white p-4 text-xl text-gray-600"
             >
               <div className="mb-2 w-fit rounded-lg bg-sky-100 p-2 text-4xl text-sky-900">
-                <Icon size={ICON_SIZE} />
+                <Icon size={32} />
               </div>
               {zone.text}
             </div>
