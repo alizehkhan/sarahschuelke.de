@@ -5,22 +5,23 @@ import {
   IconSearch,
 } from "@tabler/icons-react";
 
+const ICON_SIZE = 32;
+
 const ZONES = [
   {
-    emoji: <IconSearch size={32} />,
+    Icon: IconSearch,
     text: "Identifying potential, patterns, and weaknesses and implementing viable optimisations",
   },
   {
-    emoji: <IconRocket size={32} />,
+    Icon: IconRocket,
     text: "Achieving impact while maintaining high satisfaction, motivation and good collaboration",
   },
   {
-    emoji: <IconHeartHandshake size={32} />,
+    Icon: IconHeartHandshake,
     text: "Relationship management and communication",
   },
   {
-    emoji: <IconBuildingBridge size={32} />,
-
+    Icon: IconBuildingBridge,
     text: "Structure and clarity",
   },
 ];
@@ -32,17 +33,20 @@ export const Zones = () => {
         My zones of genius are...
       </p>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-4">
-        {ZONES.map((zone, index) => (
-          <div
-            key={index}
-            className="rounded-xl border border-gray-200 bg-white p-4 text-xl text-gray-600"
-          >
-            <div className="mb-2 w-fit rounded-lg bg-sky-100 p-2 text-4xl text-sky-900">
-              {zone.emoji}
+        {ZONES.map((zone, index) => {
+          const { Icon } = zone;
+          return (
+            <div
+              key={index}
+              className="rounded-xl border border-gray-200 bg-white p-4 text-xl text-gray-600"
+            >
+              <div className="mb-2 w-fit rounded-lg bg-sky-100 p-2 text-4xl text-sky-900">
+                <Icon size={ICON_SIZE} />
+              </div>
+              {zone.text}
             </div>
-            {zone.text}
-          </div>
-        ))}
+          );
+        })}
       </div>
     </section>
   );

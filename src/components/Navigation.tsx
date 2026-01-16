@@ -5,6 +5,7 @@ const LINKS = [
   { name: "Testimonials", to: "testimonials" },
   { name: "Contact", to: "contact" },
 ];
+
 export const Navigation = () => {
   return (
     <header>
@@ -18,13 +19,6 @@ export const Navigation = () => {
               <a
                 className="text-lg underline-offset-2 hover:underline"
                 href={`/#${link.to}`}
-                // onClick={(event) => {
-                //   event?.preventDefault();
-                //   refs[link.to].current?.scrollIntoView({
-                //     block: "start",
-                //     behavior: "smooth",
-                //   });
-                // }}
               >
                 {link.name}
               </a>
