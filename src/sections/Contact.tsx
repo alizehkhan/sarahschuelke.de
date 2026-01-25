@@ -29,7 +29,10 @@ export const Contact = () => {
         <div className="mt-12 flex flex-col gap-2 text-sm md:flex-row">
           © {new Date().getFullYear()} Sarah Schülke
           <p className="hidden md:block">|</p>
-          <a href="/impressum" className="underline underline-offset-2">
+          <a
+            href="/impressum"
+            className="focus-visible:focus rounded-md underline underline-offset-2"
+          >
             Impressum
           </a>{" "}
           <p className="hidden md:block">|</p>
@@ -38,7 +41,7 @@ export const Contact = () => {
             <a
               href="https://alizehkhan.com"
               target="_blank"
-              className="underline underline-offset-2"
+              className="focus-visible:focus rounded-md underline underline-offset-2"
               rel="noreferrer"
             >
               Alizeh Khan

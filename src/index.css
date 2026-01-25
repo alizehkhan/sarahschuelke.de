@@ -6,6 +6,10 @@
   @apply mx-auto px-8;
 }
 
+@utility focus {
+  @apply ring-3 ring-gray-800 ring-offset-3 ring-offset-white outline-none;
+}
+
 @theme {
   --font-*: initial;
   --font-sans: "Source Sans 3", sans-serif;
