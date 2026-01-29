@@ -20,7 +20,7 @@ export const Navigation = () => {
           {LINKS.map((link, index) => (
             <li key={index}>
               <a
-                className="focus-within:focus rounded-md text-lg underline-offset-2 hover:underline"
+                className="focus-visible:focus rounded-md text-lg underline-offset-2 hover:underline"
                 href={`/#${link.to}`}
               >
                 {link.name}
