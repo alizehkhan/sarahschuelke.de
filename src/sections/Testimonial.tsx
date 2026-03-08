@@ -8,6 +8,9 @@ export const Testimonial = () => {
   return (
     <div id="testimonials" className="bg-gray-100 py-16 text-gray-600">
       <div className="container px-6">
+        <p className="mb-4 font-semibold tracking-wider text-gray-500 uppercase">
+        Testimonial
+      </p>
         <div className="flex">
           <div>
             <img src="/fritz.png" className="mb-3 h-16" alt="" />
