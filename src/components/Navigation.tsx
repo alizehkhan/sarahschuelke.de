@@ -43,7 +43,7 @@ export const Navigation = () => {
             />
             <label
               htmlFor="language-en"
-              className="rounded-l-md bg-white px-3 py-1 text-gray-600 peer-checked/en:border-gray-800 peer-checked/en:bg-gray-800 peer-checked/en:text-white"
+              className="peer-focus-visible/en:focus rounded-l-md bg-white px-3 py-1 text-gray-600 peer-checked/en:border-gray-800 peer-checked/en:bg-gray-800 peer-checked/en:text-white"
             >
               🇬🇧 EN
             </label>
@@ -58,7 +58,7 @@ export const Navigation = () => {
             />
             <label
               htmlFor="language-de"
-              className="rounded-r-md bg-white px-3 py-1 text-gray-600 peer-checked/de:border-gray-800 peer-checked/de:bg-gray-800 peer-checked/de:text-white"
+              className="peer-focus-visible/de:focus rounded-r-md bg-white px-3 py-1 text-gray-600 peer-checked/de:border-gray-800 peer-checked/de:bg-gray-800 peer-checked/de:text-white"
             >
               🇩🇪 DE
             </label>
