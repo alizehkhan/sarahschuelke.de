@@ -1,3 +1,7 @@
+import "./i18n";
+
+import { useTranslation } from "react-i18next";
+
 import { Button } from "./components/Button";
 import { Navigation } from "./components/Navigation";
 import { About } from "./sections/About";
@@ -8,6 +12,8 @@ import { Testimonial } from "./sections/Testimonial";
 import { Workshops } from "./sections/Workshops";
 
 function App() {
+  const { t } = useTranslation();
+
   return (
     <>
       <div className="h-200 max-h-screen bg-transparent bg-cover md:bg-[url('/sarah.jpg')]">
@@ -19,12 +25,12 @@ function App() {
             className="mb-4 block aspect-square rounded-md object-cover md:hidden"
           />
           <h1 className="max-w-140 font-serif text-4xl leading-[1.12] font-bold text-gray-700 md:text-7xl">
-            Where structure meets empathy
+            {t("hero.title")}
           </h1>
           <p className="mt-2 max-w-100 text-2xl text-gray-600">
-            Trainings, coaching and consultancy for empowered teams and leaders.
+            {t("hero.subtitle")}
           </p>
-          <Button href="#contact">Get in touch</Button>
+          <Button href="#contact">{t("get-in-touch")}</Button>
         </div>
       </div>
       <Formats />

@@ -1,12 +1,15 @@
-const LINKS = [
-  { name: "Offers", to: "offers" },
-  { name: "Workshops", to: "workshops" },
-  { name: "About", to: "about" },
-  { name: "Testimonials", to: "testimonials" },
-  { name: "Contact", to: "contact" },
-];
+import { useTranslation } from "react-i18next";
+
+const LINKS = ["offers", "workshops", "about", "testimonials", "contact"];
 
 export const Navigation = () => {
+  const { t, i18n } = useTranslation();
+  const currentLanguage = i18n.resolvedLanguage?.startsWith("de") ? "de" : "en";
+
+  const handleLanguageChange = (language: "en" | "de") => {
+    void i18n.changeLanguage(language);
+  };
+
   return (
     <header>
       <nav className="container flex justify-between py-12 text-gray-800">
@@ -16,17 +19,51 @@ export const Navigation = () => {
         >
           Sarah Schülke
         </a>
-        <ul className="hidden gap-8 md:flex">
+        <ul className="hidden items-center gap-8 md:flex">
           {LINKS.map((link, index) => (
             <li key={index}>
               <a
                 className="focus-visible:focus rounded-md text-lg underline-offset-2 hover:underline"
-                href={`/#${link.to}`}
+                href={`/#${link}`}
               >
-                {link.name}
+                {t(`navigation.${link}`)}
               </a>
             </li>
           ))}
+          <fieldset className="flex items-center border-0 p-0 text-sm md:text-base">
+            <legend className="sr-only">Language</legend>
+            <input
+              id="language-en"
+              className="peer/en sr-only"
+              type="radio"
+              name="language"
+              value="en"
+              checked={currentLanguage === "en"}
+              onChange={() => handleLanguageChange("en")}
+            />
+            <label
+              htmlFor="language-en"
+              className="rounded-l-md bg-white px-3 py-1 text-gray-600 peer-checked/en:border-gray-800 peer-checked/en:bg-gray-800 peer-checked/en:text-white"
+            >
+              🇬🇧 EN
+            </label>
+
+            <input
+              id="language-de"
+              className="peer/de sr-only"
+              type="radio"
+              name="language"
+              value="de"
+              checked={currentLanguage === "de"}
+              onChange={() => handleLanguageChange("de")}
+            />
+            <label
+              htmlFor="language-de"
+              className="-ml-px rounded-r-md bg-white px-3 py-1 text-gray-600 peer-checked/de:border-gray-800 peer-checked/de:bg-gray-800 peer-checked/de:text-white"
+            >
+              🇩🇪 DE
+            </label>
+          </fieldset>
         </ul>
       </nav>
     </header>

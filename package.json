@@ -14,10 +14,12 @@
     "@tailwindcss/vite": "^4.1.18",
     "@tanstack/react-router": "^1.141.6",
     "@vercel/analytics": "^1.6.1",
+    "i18next": "^25.8.18",
     "prettier": "^3.7.4",
     "prettier-plugin-tailwindcss": "^0.7.2",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+    "react-i18next": "^16.5.8",
     "tailwindcss": "^4.1.18"
   },
   "devDependencies": {

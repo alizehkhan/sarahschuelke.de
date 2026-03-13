@@ -1,0 +1,14 @@
+{
+  "navigation": {
+    "offers": "Offers",
+    "workshops": "Workshops",
+    "testimonials": "Testimonials",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Where structure meets empathy",
+    "subtitle": "Trainings, coaching and consultancy for empowered teams and leaders."
+  },
+  "get-in-touch": "Get in touch"
+}
