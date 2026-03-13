@@ -1,4 +1,5 @@
 import "./index.css";
+import "./i18n";
 
 import { createRouter, RouterProvider } from "@tanstack/react-router";
 import { Analytics } from "@vercel/analytics/react";
