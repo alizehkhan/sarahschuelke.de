@@ -30,11 +30,11 @@ export const Navigation = () => {
               </a>
             </li>
           ))}
-          <fieldset className="flex items-center border-0 p-0 text-sm md:text-base">
+          <fieldset>
             <legend className="sr-only">Language</legend>
             <input
               id="language-en"
-              className="peer/en sr-only"
+              className="peer/en appearance-none"
               type="radio"
               name="language"
               value="en"
@@ -47,10 +47,9 @@ export const Navigation = () => {
             >
               🇬🇧 EN
             </label>
-
             <input
               id="language-de"
-              className="peer/de sr-only"
+              className="peer/de appearance-none"
               type="radio"
               name="language"
               value="de"
@@ -59,7 +58,7 @@ export const Navigation = () => {
             />
             <label
               htmlFor="language-de"
-              className="-ml-px rounded-r-md bg-white px-3 py-1 text-gray-600 peer-checked/de:border-gray-800 peer-checked/de:bg-gray-800 peer-checked/de:text-white"
+              className="rounded-r-md bg-white px-3 py-1 text-gray-600 peer-checked/de:border-gray-800 peer-checked/de:bg-gray-800 peer-checked/de:text-white"
             >
               🇩🇪 DE
             </label>
