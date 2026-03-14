@@ -89,7 +89,7 @@ export const Workshops = () => {
               I can create a solution that fits perfectly for you.
             </p>
             <div className="mx-auto mt-2">
-              <Button href="#contact">Get in touch</Button>
+              <Button href="#contact">{t("get-in-touch")}</Button>
             </div>
           </div>
         </div>

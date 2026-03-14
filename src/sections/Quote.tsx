@@ -1,6 +1,10 @@
+import { useTranslation } from "react-i18next";
+
 import { Button } from "../components/Button";
 
 export const Quote = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="bg-gray-100 py-20">
       <section className="container">
@@ -8,7 +12,7 @@ export const Quote = () => {
           Putting an end to inefficiencies, demotivation and{" "}
           <span className="text-amber-700 italic">untapped potential</span>.
         </p>
-        <Button href="#contact">Get in touch</Button>
+        <Button href="#contact">{t("get-in-touch")}</Button>
       </section>
     </div>
   );
