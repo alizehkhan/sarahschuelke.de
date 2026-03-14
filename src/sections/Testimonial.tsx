@@ -3,14 +3,20 @@ import {
   IconNotebook,
   IconQuoteFilled,
 } from "@tabler/icons-react";
+import { useTranslation } from "react-i18next";
 
 export const Testimonial = () => {
+  const { t } = useTranslation();
+
   return (
     <div id="testimonials" className="bg-gray-100 py-16 text-gray-600">
       <div className="container px-6">
         <p className="mb-4 font-semibold tracking-wider text-gray-500 uppercase">
-        Testimonial
-      </p>
+          {t("testimonials.kicker")}
+        </p>
+        <h2 className="mb-8 font-serif text-4xl leading-[1.15] font-bold tracking-[-0.5px] text-gray-600 md:text-6xl">
+          {t("testimonials.title")}
+        </h2>
         <div className="flex">
           <div>
             <img src="/fritz.png" className="mb-3 h-16" alt="" />
@@ -24,7 +30,7 @@ export const Testimonial = () => {
                 Training Series
               </div>
             </div>
-            <blockquote className="max-w-[50ch]">
+            <blockquote className="relative max-w-[50ch]">
               <q className="text-lg leading-[1.4]">
                 <p className="mb-4">
                   Sarah's training was a complete success for our company and

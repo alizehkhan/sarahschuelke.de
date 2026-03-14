@@ -1,4 +1,5 @@
 import { IconBuilding, IconVideo } from "@tabler/icons-react";
+import { useTranslation } from "react-i18next";
 
 import { Button } from "../components/Button";
 import { WorkshopCard } from "../components/WorkshopCard";
@@ -42,14 +43,16 @@ const workshops = [
 ];
 
 export const Workshops = () => {
+  const { t } = useTranslation();
+
   return (
     <div id="workshops">
       <section className="container py-20">
         <p className="mb-4 font-semibold tracking-wider text-gray-500 uppercase">
-          Workshops
+          {t("workshops.kicker")}
         </p>
         <h2 className="mb-8 font-serif text-4xl leading-[1.15] font-bold tracking-[-0.5px] text-gray-600 md:text-6xl">
-          My signature workshops
+          {t("workshops.title")}
         </h2>
         <div className="mt-6 mb-8 flex flex-col gap-6 md:flex-row">
           <div className="flex gap-2 text-xl text-gray-700">

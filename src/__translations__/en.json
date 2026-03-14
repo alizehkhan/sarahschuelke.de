@@ -10,5 +10,25 @@
     "title": "Where structure meets empathy",
     "subtitle": "Trainings, coaching and consultancy for empowered teams and leaders."
   },
-  "get-in-touch": "Get in touch"
+  "get-in-touch": "Get in touch",
+  "offers": {
+    "kicker": "Offers",
+    "title": "Ways we can work together"
+  },
+  "expertise": {
+    "kicker": "Expertise",
+    "title": "Capabilities I can help you build"
+  },
+  "workshops": {
+    "kicker": "Workshops",
+    "title": "My signature workshops"
+  },
+  "testimonials": {
+    "kicker": "Testimonials",
+    "title": "What my clients say"
+  },
+  "about": {
+    "kicker": "About",
+    "title": "Hi, I'm Sarah"
+  }
 }

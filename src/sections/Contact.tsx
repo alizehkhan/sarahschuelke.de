@@ -1,6 +1,9 @@
 import { IconMail, IconPhone } from "@tabler/icons-react";
+import { useTranslation } from "react-i18next";
 
 export const Contact = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="bg-gray-800 py-16 text-gray-100" id="contact">
       <div className="container">
@@ -8,7 +11,7 @@ export const Contact = () => {
           Contact
         </p>
         <p className="font-serif text-4xl font-bold text-gray-200 md:text-6xl">
-          Get in touch
+          {t("get-in-touch")}
         </p>
         <p className="mt-4 max-w-xl text-xl text-gray-400">
           All my workshops can be easily adapted, and can be offered both

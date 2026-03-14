@@ -10,5 +10,25 @@
     "title": "Wo Struktur auf Empathie trifft",
     "subtitle": "Trainings, Coaching und Beratung für befähigte Teams und Führungskräfte."
   },
-  "get-in-touch": "Kontakt aufnehmen"
+  "get-in-touch": "Kontakt aufnehmen",
+  "offers": {
+    "kicker": "Angebote",
+    "title": "Wege, wie wir zusammenarbeiten können"
+  },
+  "expertise": {
+    "kicker": "Expertise",
+    "title": "Fähigkeiten, die ich Ihnen helfen kann aufzubauen"
+  },
+  "workshops": {
+    "kicker": "Workshops",
+    "title": "Meine Signature-Workshops"
+  },
+  "testimonials": {
+    "kicker": "Referenzen",
+    "title": "Was meine Kunden sagen"
+  },
+  "about": {
+    "kicker": "Über mich",
+    "title": "Hi, ich bin Sarah"
+  }
 }
