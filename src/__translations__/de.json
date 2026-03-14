@@ -37,5 +37,13 @@
   "about": {
     "kicker": "Über mich",
     "title": "Hi, ich bin Sarah"
+  },
+  "contact": {
+    "kicker": "Kontakt",
+    "title": "Kontakt aufnehmen",
+    "description": "Alle meine Workshops können leicht angepasst werden und können sowohl persönlich als auch online angeboten werden. Ich freue mich darauf, Ihre Bedürfnisse zu erkunden und eine Lösung zu erstellen, die perfekt passt."
+  },
+  "footer": {
+    "legal-notice": "Impressum"
   }
 }

@@ -8,15 +8,13 @@ export const Contact = () => {
     <div className="bg-gray-800 py-16 text-gray-100" id="contact">
       <div className="container">
         <p className="mb-4 font-semibold tracking-wider text-gray-300 uppercase">
-          Contact
+          {t("contact.kicker")}
         </p>
         <p className="font-serif text-4xl font-bold text-gray-200 md:text-6xl">
-          {t("get-in-touch")}
+          {t("contact.title")}
         </p>
         <p className="mt-4 max-w-xl text-xl text-gray-400">
-          All my workshops can be easily adapted, and can be offered both
-          in-person or online. I'm happy to explore your needs and create a
-          solution that fits perfectly.
+          {t("contact.description")}
         </p>
 
         <p className="mt-4 flex items-center gap-1 font-serif text-2xl text-gray-200">
@@ -36,7 +34,7 @@ export const Contact = () => {
             href="/impressum"
             className="focus-visible:focus rounded-md underline underline-offset-2"
           >
-            Impressum
+            {t("footer.legal-notice")}
           </a>{" "}
           <p className="hidden md:block">|</p>
           <p>
