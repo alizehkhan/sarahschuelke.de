@@ -4,31 +4,34 @@ import {
   IconRocket,
   IconSearch,
 } from "@tabler/icons-react";
-
-const ZONES = [
-  {
-    Icon: IconSearch,
-    text: "Identifying potential, patterns, and weaknesses and implementing viable optimisations",
-  },
-  {
-    Icon: IconRocket,
-    text: "Achieving impact while maintaining high satisfaction, motivation and good collaboration",
-  },
-  {
-    Icon: IconHeartHandshake,
-    text: "Relationship management and communication",
-  },
-  {
-    Icon: IconBuildingBridge,
-    text: "Structure and clarity",
-  },
-];
+import { useTranslation } from "react-i18next";
 
 export const Zones = () => {
+  const { t } = useTranslation();
+
+  const ZONES = [
+    {
+      Icon: IconSearch,
+      text: t("expertise.zones-of-genius.one"),
+    },
+    {
+      Icon: IconRocket,
+      text: t("expertise.zones-of-genius.two"),
+    },
+    {
+      Icon: IconHeartHandshake,
+      text: t("expertise.zones-of-genius.three"),
+    },
+    {
+      Icon: IconBuildingBridge,
+      text: t("expertise.zones-of-genius.four"),
+    },
+  ];
+
   return (
     <section className="my-16">
       <p className="mb-6 font-serif text-2xl font-bold text-gray-600 md:text-3xl">
-        My zones of genius are...
+        {t("expertise.zones-of-genius.title")}
       </p>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-4">
         {ZONES.map((zone, index) => {

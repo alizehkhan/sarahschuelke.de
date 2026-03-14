@@ -17,7 +17,14 @@
   },
   "expertise": {
     "kicker": "Expertise",
-    "title": "Capabilities I can help you build"
+    "title": "Capabilities I can help you build",
+    "zones-of-genius": {
+      "title": "My zones of genius are...",
+      "one": "Identifying potential, patterns, and weaknesses and implementing viable optimisations",
+      "two": "Achieving impact while maintaining high satisfaction, motivation and good collaboration",
+      "three": "Relationship management and communication",
+      "four": "Structure and clarity"
+    }
   },
   "workshops": {
     "kicker": "Workshops",

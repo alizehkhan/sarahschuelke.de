@@ -17,7 +17,14 @@
   },
   "expertise": {
     "kicker": "Expertise",
-    "title": "Fähigkeiten, die ich Ihnen helfen kann aufzubauen"
+    "title": "Fähigkeiten, die ich Ihnen helfen kann aufzubauen",
+    "zones-of-genius": {
+      "title": "Meine Zonen der Genialität sind...",
+      "one": "Potenziale, Muster und Schwächen identifizieren und umsetzbare Optimierungen implementieren",
+      "two": "Impact erzielen und gleichzeitig hohe Zufriedenheit, Motivation und gute Zusammenarbeit aufrechterhalten",
+      "three": "Beziehungsmanagement und Kommunikation",
+      "four": "Struktur und Klarheit"
+    }
   },
   "workshops": {
     "kicker": "Workshops",
