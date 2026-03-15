@@ -40,7 +40,7 @@ export const Privacy = () => {
               Weitere Informationen:
               <a
                 href="https://vercel.com/legal/privacy-policy"
-                className="ml-1underline"
+                className="ml-1 underline"
               >
                 https://vercel.com/legal/privacy-policy
               </a>
