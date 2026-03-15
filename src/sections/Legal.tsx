@@ -1,6 +1,6 @@
 import { Navigation } from "../components/Navigation";
 
-export const Impressum = () => {
+export const Legal = () => {
   return (
     <>
       <head>

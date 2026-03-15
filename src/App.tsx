@@ -14,11 +14,11 @@ function App() {
 
   return (
     <>
-      <div className="h-200 max-h-screen bg-transparent bg-cover md:bg-[url('/sarah.jpg')]">
+      <div className="h-200 max-h-screen bg-transparent bg-cover md:bg-[url('/images/sarah.jpg')]">
         <Navigation />
         <div className="container mt-0 pb-8 md:mt-20">
           <img
-            src="/sarah.jpg"
+            src="/images/sarah.jpg"
             alt=""
             className="mb-4 block aspect-square rounded-md object-cover md:hidden"
           />
@@ -34,7 +34,7 @@ function App() {
       <Formats />
       <Expertise />
       <img
-        src="/workshop.jpg"
+        src="/images/workshop.jpg"
         alt=""
         className="aspect-video w-full object-cover object-top md:aspect-16/7"
       />

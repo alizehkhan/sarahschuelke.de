@@ -31,10 +31,17 @@ export const Contact = () => {
           © {new Date().getFullYear()} Sarah Schülke
           <p className="hidden md:block">|</p>
           <a
-            href="/impressum"
+            href="/Legal"
             className="focus-visible:focus rounded-md underline underline-offset-2"
           >
-            {t("footer.legal-notice")}
+            {t("footer.legal")}
+          </a>{" "}
+          <p className="hidden md:block">|</p>
+          <a
+            href="/privacy"
+            className="focus-visible:focus rounded-md underline underline-offset-2"
+          >
+            {t("footer.privacy")}
           </a>{" "}
           <p className="hidden md:block">|</p>
           <p>

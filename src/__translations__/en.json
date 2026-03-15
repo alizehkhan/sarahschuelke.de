@@ -44,6 +44,7 @@
     "description": "All my workshops can be easily adapted, and can be offered both in-person or online. I'm happy to explore your needs and create a solution that fits perfectly."
   },
   "footer": {
-    "legal-notice": "Legal Notice"
+    "legal": "Legal Notice",
+    "privacy": "Privacy Policy"
   }
 }

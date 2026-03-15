@@ -19,7 +19,7 @@ export const Testimonial = () => {
         </h2>
         <div className="flex">
           <div>
-            <img src="/fritz.png" className="mb-3 h-16" alt="" />
+            <img src="/images/fritz.png" className="mb-3 h-16" alt="" />
             <div className="mt-6 mb-4 flex flex-wrap gap-1">
               <div className="flex w-fit items-center gap-1 rounded-md border border-gray-200 bg-white px-2 py-1 text-sm font-semibold">
                 <IconBuildings size={20} />
@@ -56,7 +56,7 @@ export const Testimonial = () => {
               </q>
               <div className="flex items-center gap-3">
                 <img
-                  src="/stephanie.jpeg"
+                  src="/images/stephanie.jpeg"
                   alt=""
                   className="size-12 rounded-full border-2 border-gray-700"
                 />
