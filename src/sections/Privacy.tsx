@@ -34,8 +34,16 @@ export const Privacy = () => {
               Diese Website wird gehostet von Vercel (USA). Technische Daten wie
               IP-Adresse, Datum/Uhrzeit, Browser, Betriebssystem und aufgerufene
               Seiten werden automatisch gespeichert, um den sicheren Betrieb der
-              Website zu gewährleisten (Art. 6 Abs. 1 lit. f DSGVO). Weitere
-              Informationen: https://vercel.com/legal/privacy-policy
+              Website zu gewährleisten (Art. 6 Abs. 1 lit. f DSGVO).
+            </p>
+            <p className="mt-2">
+              Weitere Informationen:
+              <a
+                href="https://vercel.com/legal/privacy-policy"
+                className="ml-1underline"
+              >
+                https://vercel.com/legal/privacy-policy
+              </a>
             </p>
             <h2 className="mt-6 mb-2 font-serif text-2xl font-semibold">
               4. Website-Analyse
