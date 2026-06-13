@@ -9,8 +9,8 @@
 }
 
 @font-face {
-  font-family: "Source Serif 4";
-  src: url("/fonts/SourceSerif4.woff2") format("woff2");
+  font-family: "Lora";
+  src: url("/fonts/Lora.woff2") format("woff2");
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
@@ -27,7 +27,7 @@
 @theme {
   --font-*: initial;
   --font-sans: "Source Sans 3", sans-serif;
-  --font-serif: "Source Serif 4", serif;
+  --font-serif: "Lora", serif;
 }
 
 q::before,

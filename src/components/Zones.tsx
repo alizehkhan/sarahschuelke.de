@@ -30,7 +30,7 @@ export const Zones = () => {
 
   return (
     <section className="my-16">
-      <p className="mb-6 font-serif text-2xl font-bold text-gray-600 md:text-3xl">
+      <p className="mb-6 font-serif text-2xl font-medium text-gray-600 md:text-3xl">
         {t("expertise.zones-of-genius.title")}
       </p>
       <div className="grid grid-cols-1 gap-4 md:grid-cols-4">

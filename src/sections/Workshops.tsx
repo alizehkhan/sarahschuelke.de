@@ -48,10 +48,11 @@ export const Workshops = () => {
   return (
     <div id="workshops">
       <section className="container py-20">
-        <p className="mb-4 font-semibold tracking-wider text-gray-500 uppercase">
+        <p className="mb-4 flex items-center gap-2 text-sm font-semibold tracking-widest text-gray-500 uppercase">
+          <div className="w-6 shrink-0 border-b border-gray-400"></div>
           {t("workshops.kicker")}
         </p>
-        <h2 className="mb-8 font-serif text-4xl leading-[1.15] font-bold tracking-[-0.5px] text-gray-600 md:text-6xl">
+        <h2 className="mb-8 font-serif text-4xl leading-[1.15] font-medium tracking-[-0.5px] text-gray-600 md:text-6xl">
           {t("workshops.title")}
         </h2>
         <div className="mt-6 mb-8 flex flex-col gap-6 md:flex-row">
@@ -81,7 +82,7 @@ export const Workshops = () => {
             />
           ))}
           <div className="flex flex-col justify-center rounded-lg border border-gray-200 bg-gray-50 p-6 text-center text-gray-700">
-            <p className="text-xl font-bold text-amber-700">
+            <p className="text-xl font-semibold text-amber-700">
               Not what you're looking for?
             </p>
             <p className="mt-4">

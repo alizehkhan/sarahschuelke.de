@@ -7,10 +7,11 @@ export const Contact = () => {
   return (
     <div className="bg-gray-800 py-16 text-gray-100" id="contact">
       <div className="container">
-        <p className="mb-4 font-semibold tracking-wider text-gray-300 uppercase">
+        <p className="mb-4 flex items-center gap-2 text-sm font-semibold tracking-widest text-gray-500 uppercase">
+          <div className="w-6 shrink-0 border-b border-gray-400"></div>
           {t("contact.kicker")}
         </p>
-        <p className="font-serif text-4xl font-bold text-gray-200 md:text-6xl">
+        <p className="font-serif text-4xl font-medium text-gray-200 md:text-6xl">
           {t("contact.title")}
         </p>
         <p className="mt-4 max-w-xl text-xl text-gray-400">

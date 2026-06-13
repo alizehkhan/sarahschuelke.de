@@ -11,10 +11,11 @@ export const Testimonial = () => {
   return (
     <div id="testimonials" className="bg-gray-100 py-16 text-gray-600">
       <div className="container px-6">
-        <p className="mb-4 font-semibold tracking-wider text-gray-500 uppercase">
+        <p className="mb-4 flex items-center gap-2 text-sm font-semibold tracking-widest text-gray-500 uppercase">
+          <div className="w-6 shrink-0 border-b border-gray-400"></div>
           {t("testimonials.kicker")}
         </p>
-        <h2 className="mb-8 font-serif text-4xl leading-[1.15] font-bold tracking-[-0.5px] text-gray-600 md:text-6xl">
+        <h2 className="mb-8 font-serif text-4xl leading-[1.15] font-medium tracking-[-0.5px] text-gray-600 md:text-6xl">
           {t("testimonials.title")}
         </h2>
         <div className="flex">

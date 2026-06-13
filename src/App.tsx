@@ -22,7 +22,7 @@ function App() {
             alt=""
             className="mb-4 block aspect-square rounded-md object-cover md:hidden"
           />
-          <h1 className="max-w-140 font-serif text-4xl leading-[1.12] font-bold text-gray-700 md:text-7xl">
+          <h1 className="max-w-142 font-serif text-4xl leading-[1.1] font-medium text-gray-700 md:text-[68px]">
             {t("hero.title")}
           </h1>
           <p className="mt-2 max-w-100 text-2xl text-gray-600">

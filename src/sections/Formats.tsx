@@ -44,10 +44,11 @@ export const Formats = () => {
   return (
     <section className="bg-gray-50 py-20" id="offers">
       <div className="container text-gray-600">
-        <p className="mb-4 font-semibold tracking-wider text-gray-500 uppercase">
+        <p className="mb-4 flex items-center gap-2 text-sm font-semibold tracking-widest text-gray-500 uppercase">
+          <div className="w-6 shrink-0 border-b border-gray-400"></div>
           {t("offers.kicker")}
         </p>
-        <h2 className="mb-8 font-serif text-4xl leading-[1.15] font-bold tracking-[-0.5px] text-gray-600 md:text-6xl">
+        <h2 className="mb-8 font-serif text-4xl leading-[1.15] font-medium tracking-[-0.5px] text-gray-600 md:text-6xl">
           {t("offers.title")}
         </h2>
 
