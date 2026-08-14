@@ -3,43 +3,19 @@ import { useTranslation } from "react-i18next";
 
 import { Approach } from "../components/Approach";
 
-const formatCards = [
-  {
-    icon: IconTrophy,
-    title: "Trainings & Coaching",
-    description:
-      "Get support in developing individuals and teams to become excellent - e.g. in these areas:",
-    items: [
-      "Project & product management",
-      "Team-building, communication & collaboration",
-      "Leadership & management",
-    ],
-  },
-  {
-    icon: IconMessage,
-    title: "Moderation & Facilitation",
-    description:
-      "Poorly facilitated plannings, workshops and meetings are detrimental to a company's success. I can support you and/or train you to run e.g. excellent:",
-    items: [
-      "OKR planning & check-ins",
-      "Agile ceremonies like retrospectives",
-      "Double diamond processes & design sprints",
-    ],
-  },
-  {
-    icon: IconChartColumn,
-    title: "Consulting & Process Optimisation",
-    description:
-      "In need of an outsider's perspective on a specific topic? I am happy to challenge the status quo and provide personalised solutions. The process encompasses e.g.:",
-    items: [
-      "Identifying inefficiencies, knowledge gaps, optimisation potential",
-      "Impact review and further improvements",
-    ],
-  },
-];
+interface FormatCardContent {
+  title: string;
+  description: string;
+  items: string[];
+}
+
+const formatIcons = [IconTrophy, IconMessage, IconChartColumn];
 
 export const Formats = () => {
   const { t } = useTranslation();
+  const formatCards = t("offers.cards", {
+    returnObjects: true,
+  }) as FormatCardContent[];
 
   return (
     <section className="bg-gray-50 py-20" id="offers">
@@ -54,10 +30,15 @@ export const Formats = () => {
 
         <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
           {formatCards.map((card, index) => {
-            const IconComponent = card.icon;
+            const IconComponent = formatIcons[index];
+
+            if (!IconComponent) {
+              return null;
+            }
+
             return (
               <div
-                key={index}
+                key={card.title}
                 className="max-w-125 rounded-xl border border-gray-200 bg-white p-6"
               >
                 <div className="mb-2 w-fit rounded-md bg-orange-100 p-2 text-orange-700">
@@ -66,8 +47,8 @@ export const Formats = () => {
                 <h3 className="mb-2 text-xl font-semibold">{card.title}</h3>
                 <p className="mb-2">{card.description}</p>
                 <ul className="list-disc space-y-0.5 pl-8">
-                  {card.items.map((item, itemIndex) => (
-                    <li key={itemIndex}>{item}</li>
+                  {card.items.map((item) => (
+                    <li key={item}>{item}</li>
                   ))}
                 </ul>
               </div>

@@ -46,7 +46,7 @@ export const Contact = () => {
           </a>{" "}
           <p className="hidden md:block">|</p>
           <p>
-            Website by {""}
+            {t("footer.website-by")} {""}
             <a
               href="https://alizehkhan.com"
               target="_blank"

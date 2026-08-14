@@ -24,35 +24,27 @@ export const Testimonial = () => {
             <div className="mt-6 mb-4 flex flex-wrap gap-1">
               <div className="flex w-fit items-center gap-1 rounded-md border border-gray-200 bg-white px-2 py-1 text-sm font-semibold">
                 <IconBuildings size={20} />
-                In-person
+                {t("testimonials.tags.in-person")}
               </div>
               <div className="flex w-fit items-center gap-1 rounded-md border border-gray-200 bg-white px-2 py-1 text-sm font-semibold">
                 <IconNotebook size={20} />
-                Training Series
+                {t("testimonials.tags.training-series")}
               </div>
             </div>
             <blockquote className="relative max-w-[50ch]">
               <q className="text-lg leading-[1.4]">
                 <p className="mb-4">
-                  Sarah's training was a complete success for our company and
-                  the impact was visible throughout the company:{" "}
+                  {t("testimonials.quote.one.prefix")}{" "}
                   <span className="font-semibold text-amber-800">
-                    numerous employees recommended the training to their
-                    colleagues
+                    {t("testimonials.quote.one.highlight")}
                   </span>
-                  , and many immediately began implementing the new ideas and
-                  methods.
+                  {t("testimonials.quote.one.suffix")}
                 </p>
                 <p className="mb-8">
                   <span className="font-semibold text-amber-800">
-                    Sarah manages to convey complex content in a lively,
-                    structured, and understandable way.
+                    {t("testimonials.quote.two.highlight")}
                   </span>
-                  Her friendly, open manner and the pleasant, confident
-                  atmosphere she creates in the room enabled honest, inspiring
-                  exchange. We can wholeheartedly recommend Sarah's training -
-                  for all teams that want to improve their collaboration, and
-                  achieve lasting change in their company.
+                  {t("testimonials.quote.two.suffix")}
                 </p>
               </q>
               <div className="flex items-center gap-3">
@@ -63,7 +55,7 @@ export const Testimonial = () => {
                 />
                 <cite className="block not-italic">
                   <p className="font-semibold">Stephanie Blankenburg</p>
-                  <p>Head of Personal Development</p>
+                  <p>{t("testimonials.person.role")}</p>
                 </cite>
               </div>
             </blockquote>

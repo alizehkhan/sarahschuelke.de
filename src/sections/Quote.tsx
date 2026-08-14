@@ -9,8 +9,8 @@ export const Quote = () => {
     <div className="bg-gray-100 py-20">
       <section className="container">
         <p className="max-w-[800px] font-serif text-3xl leading-[1.1] font-medium text-gray-600 md:text-6xl">
-          Putting an end to inefficiencies, demotivation and{" "}
-          <span className="text-amber-700 italic">untapped potential</span>.
+          {t("quote.prefix")}{" "}
+          <span className="text-amber-700 italic">{t("quote.highlight")}.</span>
         </p>
         <Button href="#contact">{t("get-in-touch")}</Button>
       </section>

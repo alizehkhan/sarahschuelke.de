@@ -31,7 +31,7 @@ export const Navigation = () => {
             </li>
           ))}
           <fieldset>
-            <legend className="sr-only">Language</legend>
+            <legend className="sr-only">{t("navigation.language")}</legend>
             <input
               id="language-en"
               className="peer/en appearance-none"

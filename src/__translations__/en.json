@@ -4,20 +4,95 @@
     "workshops": "Workshops",
     "testimonials": "Testimonials",
     "about": "About",
-    "contact": "Contact"
+    "contact": "Contact",
+    "language": "Language"
   },
   "hero": {
     "title": "Where structure meets empathy",
     "subtitle": "Trainings, coaching and consultancy for empowered teams and leaders."
   },
   "get-in-touch": "Get in touch",
+  "quote": {
+    "prefix": "Putting an end to inefficiencies, demotivation and",
+    "highlight": "untapped potential"
+  },
   "offers": {
     "kicker": "Offers",
-    "title": "Ways we can work together"
+    "title": "Ways we can work together",
+    "cards": [
+      {
+        "title": "Trainings & Coaching",
+        "description": "Get support in developing individuals and teams to become excellent - e.g. in these areas:",
+        "items": [
+          "Project & product management",
+          "Team-building, communication & collaboration",
+          "Leadership & management"
+        ]
+      },
+      {
+        "title": "Moderation & Facilitation",
+        "description": "Poorly facilitated plannings, workshops and meetings are detrimental to a company's success. I can support you and/or train you to run e.g. excellent:",
+        "items": [
+          "OKR planning & check-ins",
+          "Agile ceremonies like retrospectives",
+          "Double diamond processes & design sprints"
+        ]
+      },
+      {
+        "title": "Consulting & Process Optimisation",
+        "description": "In need of an outsider's perspective on a specific topic? I am happy to challenge the status quo and provide personalised solutions. The process encompasses e.g.:",
+        "items": [
+          "Identifying inefficiencies, knowledge gaps, optimisation potential",
+          "Impact review and further improvements"
+        ]
+      }
+    ],
+    "approach": {
+      "title": "My approach is...",
+      "items": [
+        "Interactive",
+        "Practical, hands-on",
+        "Easy to apply, pragmatic",
+        "Non-dogmatic",
+        "Reflective & inspiring",
+        "Empathetic",
+        "Empowering"
+      ]
+    }
   },
   "expertise": {
     "kicker": "Expertise",
     "title": "Capabilities I can help you build",
+    "cards": [
+      {
+        "title": "Product & Project Management",
+        "description": "Taking skills to the next level and overcoming common challenges, e.g.:",
+        "items": [
+          "Prioritisation & decision-making",
+          "Stakeholder communication & management",
+          "Better collaboration"
+        ]
+      },
+      {
+        "title": "Team-Building, Communication & Collaboration",
+        "description": "How well a team works together is crucial to productivity and efficiency. Hence, some areas at times need focus, e.g.:",
+        "items": [
+          "Team cohesion, goals & alignment",
+          "Better communication & collaboration",
+          "Conflict resolution"
+        ]
+      },
+      {
+        "title": "Leadership & Management",
+        "description": "A leader these days needs to balance and master both - managing people empathically and ensuring business success. I can help with, e.g.:",
+        "items": [
+          "Embodied leadership",
+          "Professional relationship management",
+          "Goal setting frameworks, e.g. OKRs",
+          "Empathic change management"
+        ]
+      }
+    ],
     "zones-of-genius": {
       "title": "My zones of genius are...",
       "one": "Identifying potential, patterns, and weaknesses and implementing viable optimisations",
@@ -28,15 +103,94 @@
   },
   "workshops": {
     "kicker": "Workshops",
-    "title": "My signature workshops"
+    "title": "My signature workshops",
+    "meta": {
+      "on-site": "On-site",
+      "remote": "Remote",
+      "english": "🇬🇧 English",
+      "german": "🇩🇪 German"
+    },
+    "cards": [
+      {
+        "title": "Effective Project Collaboration",
+        "chips": ["📁 Projects", "🤝🏼 Teams", "💬 Communication"],
+        "description": "Let's strive for projects with clear communication, high commitment, and engaged collaboration, where everyone knows what's going on and pulls together. For a project routine that's noticeably more structured, relaxed and enjoyable.",
+        "duration": "4 x 4 hour sessions"
+      },
+      {
+        "title": "Embodied Leadership",
+        "chips": ["🦁 Leadership", "💪🏼 Power", "🧘🏼 Embodiment"],
+        "description": "Leadership trainings don't need to be dry and theoretical. For those keen to learn more about Embodied Leadership by experiencing it in and through the body - you're in for a treat. This is your invitation to explore power and impact in a different way and to learn how to lead from a place where people want to follow you.",
+        "duration": "4 hours"
+      },
+      {
+        "title": "Upleveled Relational & Communication Skills",
+        "chips": ["👥 Relational", "💬 Communication"],
+        "description": "What leads to greater collaboration and trusting work relationships that help people excel? Increased interpersonal awareness and attunement, as well as communication that is recipient and needs focused - just to name a few ingredients. Learn hands-on where and how you can uplevel your skills.",
+        "duration": "4 hours"
+      },
+      {
+        "title": "Time For Excellence - Small Improvements, Great Impact",
+        "chips": ["🪞 Reflection", "⏱️ Self-Management"],
+        "description": "When meeting marathons, endless to-do lists, reactiveness and too little time to think about what would really move the needle are one's reality, it's time to pause and course correct. A few small, field-tested improvements will show great impact. Enabling you to perform better while being more relaxed, fulfilled and creative.",
+        "duration": "2 hours"
+      },
+      {
+        "title": "The Secret to Building Great Teams",
+        "chips": ["🤝🏼 Teams", "🌱 Soft Skills"],
+        "description": "You may have followed the common practices on how to build high-performing teams and yet you sense more is possible. But how to unlock that potential? Let's look at the (not so) \"secret\" ingredients often neglected. Let's learn how to introduce those \"soft\" factors and rituals that will show noticeable impact.",
+        "duration": "3 hours"
+      }
+    ],
+    "cta": {
+      "title": "Not what you're looking for?",
+      "description": "I love tailoring solutions to your individual needs. Let's chat so I can create a solution that fits perfectly for you."
+    }
   },
   "testimonials": {
     "kicker": "Testimonials",
-    "title": "What my clients say"
+    "title": "What my clients say",
+    "tags": {
+      "in-person": "In-person",
+      "training-series": "Training Series"
+    },
+    "quote": {
+      "one": {
+        "prefix": "Sarah's training was a complete success for our company and the impact was visible throughout the company:",
+        "highlight": "numerous employees recommended the training to their colleagues",
+        "suffix": ", and many immediately began implementing the new ideas and methods."
+      },
+      "two": {
+        "highlight": "Sarah manages to convey complex content in a lively, structured, and understandable way.",
+        "suffix": "Her friendly, open manner and the pleasant, confident atmosphere she creates in the room enabled honest, inspiring exchange. We can wholeheartedly recommend Sarah's training - for all teams that want to improve their collaboration, and achieve lasting change in their company."
+      }
+    },
+    "person": {
+      "role": "Head of Personal Development"
+    }
   },
   "about": {
     "kicker": "About",
-    "title": "Hi, I'm Sarah"
+    "title": "Hi, I'm Sarah",
+    "tagline": "Trainer. Coach. Consultant.",
+    "subtitle": "With a strong track record in building and managing successful products and teams.",
+    "paragraphs": {
+      "one": {
+        "prefix": "I have a unique ability to analyze and empathize fast, even in complex situations. For over 10 years,",
+        "highlight": "developing a clear vision and executing strategies reliably was my bread and butter",
+        "suffix": ". Most important to me: moving forward while keeping everyone aligned, motivated, and on board - by leveraging individual strengths."
+      },
+      "two": {
+        "prefix": "People know me for my structured, solution-focused way of working. At the same time, they value",
+        "highlight": "my ability to make people feel included, heard, and seen",
+        "suffix": ". My workshops and facilitations have proven to bring clarity, alignment, and focus - while also being enjoyable."
+      },
+      "three": {
+        "highlight": "Working in a fast-growing, listed company taught me to act efficiently and effectively",
+        "suffix": ", creating real value for customers and the business. I'm always keen to improve processes and collaboration. And I enjoy new challenges and designing solutions that simply work."
+      },
+      "four": "And now I'm curious: how could I support you?"
+    }
   },
   "contact": {
     "kicker": "Contact",
@@ -45,6 +199,7 @@
   },
   "footer": {
     "legal": "Legal Notice",
-    "privacy": "Privacy Policy"
+    "privacy": "Privacy Policy",
+    "website-by": "Website by"
   }
 }

@@ -3,21 +3,96 @@
     "offers": "Angebote",
     "workshops": "Workshops",
     "testimonials": "Referenzen",
-    "about": "Über uns",
-    "contact": "Kontakt"
+    "about": "Über mich",
+    "contact": "Kontakt",
+    "language": "Sprache"
   },
   "hero": {
     "title": "Wo Struktur auf Empathie trifft",
     "subtitle": "Trainings, Coaching und Beratung für befähigte Teams und Führungskräfte."
   },
   "get-in-touch": "Kontakt aufnehmen",
+  "quote": {
+    "prefix": "Ein Ende für Ineffizienz, Demotivation und",
+    "highlight": "ungenutztes Potenzial"
+  },
   "offers": {
     "kicker": "Angebote",
-    "title": "Wege, wie wir zusammenarbeiten können"
+    "title": "Wege, wie wir zusammenarbeiten können",
+    "cards": [
+      {
+        "title": "Trainings & Coaching",
+        "description": "Ich unterstütze dabei, Einzelpersonen und Teams weiterzuentwickeln, damit sie exzellent werden - zum Beispiel in diesen Bereichen:",
+        "items": [
+          "Projekt- & Produktmanagement",
+          "Teambuilding, Kommunikation & Zusammenarbeit",
+          "Leadership & Management"
+        ]
+      },
+      {
+        "title": "Moderation & Facilitation",
+        "description": "Schlecht moderierte Planungen, Workshops und Meetings schaden dem Unternehmenserfolg. Ich kann euch unterstützen und/oder euch trainieren, damit ihr zum Beispiel folgende Formate exzellent durchführt:",
+        "items": [
+          "OKR-Planung & Check-ins",
+          "Agile Zeremonien wie Retrospektiven",
+          "Double-Diamond-Prozesse & Design Sprints"
+        ]
+      },
+      {
+        "title": "Beratung & Prozessoptimierung",
+        "description": "Ihr braucht eine externe Perspektive auf ein konkretes Thema? Ich hinterfrage gerne den Status quo und liefere passgenaue Lösungen. Der Prozess umfasst zum Beispiel:",
+        "items": [
+          "Ineffizienzen, Wissenslücken und Optimierungspotenziale identifizieren",
+          "Wirkungsanalyse und weitere Verbesserungen"
+        ]
+      }
+    ],
+    "approach": {
+      "title": "Mein Ansatz ist...",
+      "items": [
+        "Interaktiv",
+        "Praktisch, hands-on",
+        "Einfach anwendbar, pragmatisch",
+        "Undogmatisch",
+        "Reflektiert & inspirierend",
+        "Empathisch",
+        "Empowernd"
+      ]
+    }
   },
   "expertise": {
     "kicker": "Expertise",
     "title": "Fähigkeiten, die ich Ihnen helfen kann aufzubauen",
+    "cards": [
+      {
+        "title": "Produkt- & Projektmanagement",
+        "description": "Skills aufs nächste Level bringen und typische Herausforderungen meistern, zum Beispiel:",
+        "items": [
+          "Priorisierung & Entscheidungsfindung",
+          "Stakeholder-Kommunikation & -Management",
+          "Bessere Zusammenarbeit"
+        ]
+      },
+      {
+        "title": "Teambuilding, Kommunikation & Zusammenarbeit",
+        "description": "Wie gut ein Team zusammenarbeitet, ist entscheidend für Produktivität und Effizienz. Deshalb brauchen manche Bereiche zeitweise besondere Aufmerksamkeit, zum Beispiel:",
+        "items": [
+          "Teamzusammenhalt, Ziele & Alignment",
+          "Bessere Kommunikation & Zusammenarbeit",
+          "Konfliktlösung"
+        ]
+      },
+      {
+        "title": "Leadership & Management",
+        "description": "Führung bedeutet heute, beides zu balancieren und zu meistern: Menschen empathisch führen und zugleich den Geschäftserfolg sichern. Ich helfe zum Beispiel bei:",
+        "items": [
+          "Embodied Leadership",
+          "Professionellem Beziehungsmanagement",
+          "Zielsetzungs-Frameworks, z. B. OKRs",
+          "Empathischem Change Management"
+        ]
+      }
+    ],
     "zones-of-genius": {
       "title": "Meine Zonen der Genialität sind...",
       "one": "Potenziale, Muster und Schwächen identifizieren und umsetzbare Optimierungen implementieren",
@@ -28,15 +103,94 @@
   },
   "workshops": {
     "kicker": "Workshops",
-    "title": "Meine Signature-Workshops"
+    "title": "Meine Signature-Workshops",
+    "meta": {
+      "on-site": "Vor Ort",
+      "remote": "Remote",
+      "english": "🇬🇧 Englisch",
+      "german": "🇩🇪 Deutsch"
+    },
+    "cards": [
+      {
+        "title": "Effektive Projektzusammenarbeit",
+        "chips": ["📁 Projekte", "🤝🏼 Teams", "💬 Kommunikation"],
+        "description": "Lasst uns Projekte mit klarer Kommunikation, hohem Commitment und engagierter Zusammenarbeit schaffen, in denen alle Bescheid wissen und gemeinsam an einem Strang ziehen. Für einen Projektalltag, der spürbar strukturierter, entspannter und angenehmer ist.",
+        "duration": "4 x 4 Stunden Sessions"
+      },
+      {
+        "title": "Embodied Leadership",
+        "chips": ["🦁 Leadership", "💪🏼 Power", "🧘🏼 Embodiment"],
+        "description": "Leadership-Trainings müssen nicht trocken und theoretisch sein. Für alle, die Embodied Leadership im und durch den Körper erleben möchten: Ihr seid hier genau richtig. Eine Einladung, Macht und Wirkung anders zu erforschen und zu lernen, von einem Ort aus zu führen, dem Menschen gerne folgen.",
+        "duration": "4 Stunden"
+      },
+      {
+        "title": "Verbesserte Beziehungs- & Kommunikationsskills",
+        "chips": ["👥 Beziehungen", "💬 Kommunikation"],
+        "description": "Was führt zu mehr Zusammenarbeit und vertrauensvollen Arbeitsbeziehungen, in denen Menschen ihr Potenzial entfalten? Mehr zwischenmenschliche Wahrnehmung und Feinabstimmung sowie empfänger- und bedarfsorientierte Kommunikation sind nur einige Zutaten. Lerne praxisnah, wo und wie du deine Skills gezielt auf das nächste Level bringst.",
+        "duration": "4 Stunden"
+      },
+      {
+        "title": "Zeit für Exzellenz - Kleine Verbesserungen, große Wirkung",
+        "chips": ["🪞 Reflexion", "⏱️ Selbstmanagement"],
+        "description": "Wenn Meeting-Marathons, endlose To-do-Listen, Reaktivität und zu wenig Zeit zum Nachdenken über die wirklich wichtigen Hebel den Alltag bestimmen, ist es Zeit für einen Kurswechsel. Ein paar kleine, praxiserprobte Verbesserungen können große Wirkung zeigen. So performst du besser und bleibst gleichzeitig entspannter, erfüllter und kreativer.",
+        "duration": "2 Stunden"
+      },
+      {
+        "title": "Das Geheimnis großartiger Teams",
+        "chips": ["🤝🏼 Teams", "🌱 Soft Skills"],
+        "description": "Vielleicht habt ihr gängige Best Practices für High-Performing Teams bereits umgesetzt und spürt trotzdem: Da geht noch mehr. Aber wie lässt sich dieses Potenzial heben? Schauen wir auf die (gar nicht so) \"geheimen\" Zutaten, die oft vernachlässigt werden. Lernen wir, wie sich diese \"weichen\" Faktoren und Rituale einführen lassen, damit spürbare Wirkung entsteht.",
+        "duration": "3 Stunden"
+      }
+    ],
+    "cta": {
+      "title": "Nicht das Richtige dabei?",
+      "description": "Ich entwickle sehr gerne Lösungen, die auf eure individuellen Bedürfnisse zugeschnitten sind. Lass uns sprechen, damit ich ein perfekt passendes Angebot für dich entwickeln kann."
+    }
   },
   "testimonials": {
     "kicker": "Referenzen",
-    "title": "Was meine Kunden sagen"
+    "title": "Was meine Kunden sagen",
+    "tags": {
+      "in-person": "Vor Ort",
+      "training-series": "Trainingsreihe"
+    },
+    "quote": {
+      "one": {
+        "prefix": "Sarahs Training war ein voller Erfolg fuer unser Unternehmen und die Wirkung war im gesamten Unternehmen sichtbar:",
+        "highlight": "zahlreiche Mitarbeitende haben das Training ihren Kolleginnen und Kollegen weiterempfohlen",
+        "suffix": ", und viele haben die neuen Ideen und Methoden sofort umgesetzt."
+      },
+      "two": {
+        "highlight": "Sarah schafft es, komplexe Inhalte lebendig, strukturiert und verstaendlich zu vermitteln.",
+        "suffix": "Ihre freundliche, offene Art und die angenehme, sichere Atmosphaere, die sie im Raum schafft, haben einen ehrlichen und inspirierenden Austausch ermoeglicht. Wir empfehlen Sarahs Training von Herzen - fuer alle Teams, die ihre Zusammenarbeit verbessern und nachhaltige Veraenderung im Unternehmen erreichen wollen."
+      }
+    },
+    "person": {
+      "role": "Leitung Personalentwicklung"
+    }
   },
   "about": {
     "kicker": "Über mich",
-    "title": "Hi, ich bin Sarah"
+    "title": "Hi, ich bin Sarah",
+    "tagline": "Trainerin. Coach. Beraterin.",
+    "subtitle": "Mit einer starken Erfolgsbilanz im Aufbau und in der Fuehrung erfolgreicher Produkte und Teams.",
+    "paragraphs": {
+      "one": {
+        "prefix": "Ich habe eine besondere Faehigkeit, auch in komplexen Situationen schnell zu analysieren und empathisch zu erfassen. Seit ueber 10 Jahren",
+        "highlight": "gehoert es zu meinem Kerngeschaeft, klare Visionen zu entwickeln und Strategien verlaesslich umzusetzen",
+        "suffix": ". Fuer mich am wichtigsten: vorwaertskommen und dabei alle ausgerichtet, motiviert und an Bord halten - durch die Staerkung individueller Potenziale."
+      },
+      "two": {
+        "prefix": "Man kennt mich fuer meine strukturierte, loesungsorientierte Arbeitsweise. Gleichzeitig schaetzen viele",
+        "highlight": "meine Faehigkeit, Menschen einbezogen, gehoert und gesehen zu fuehlen",
+        "suffix": ". Meine Workshops und Facilitationen bringen nachweislich Klarheit, Alignment und Fokus - und machen dabei auch noch Spass."
+      },
+      "three": {
+        "highlight": "Die Arbeit in einem schnell wachsenden, boersennotierten Unternehmen hat mich gelehrt, effizient und wirksam zu handeln",
+        "suffix": ", und damit echten Mehrwert fuer Kundinnen, Kunden und das Unternehmen zu schaffen. Ich verbessere gerne Prozesse und Zusammenarbeit und freue mich auf neue Herausforderungen sowie auf Loesungen, die einfach funktionieren."
+      },
+      "four": "Und jetzt bin ich neugierig: Wie kann ich dich unterstuetzen?"
+    }
   },
   "contact": {
     "kicker": "Kontakt",
@@ -45,6 +199,7 @@
   },
   "footer": {
     "legal": "Impressum",
-    "privacy": "Datenschutz"
+    "privacy": "Datenschutz",
+    "website-by": "Website von"
   }
 }
