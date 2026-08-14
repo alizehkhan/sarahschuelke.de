@@ -30,7 +30,7 @@ export const Navigation = () => {
               </a>
             </li>
           ))}
-          <fieldset>
+          <fieldset className="rounded-md bg-white px-1 py-2">
             <legend className="sr-only">{t("navigation.language")}</legend>
             <input
               id="language-en"
@@ -43,7 +43,7 @@ export const Navigation = () => {
             />
             <label
               htmlFor="language-en"
-              className="peer-focus-visible/en:focus rounded-l-md bg-white px-3 py-1 text-gray-600 peer-checked/en:border-gray-800 peer-checked/en:bg-gray-800 peer-checked/en:text-white"
+              className="peer-focus-visible/en:focus rounded-md bg-white px-2 py-1 text-gray-600 peer-checked/en:border-gray-800 peer-checked/en:bg-gray-200 peer-checked/en:font-semibold peer-checked/en:text-gray-800"
             >
               🇬🇧 EN
             </label>
@@ -58,7 +58,7 @@ export const Navigation = () => {
             />
             <label
               htmlFor="language-de"
-              className="peer-focus-visible/de:focus rounded-r-md bg-white px-3 py-1 text-gray-600 peer-checked/de:border-gray-800 peer-checked/de:bg-gray-800 peer-checked/de:text-white"
+              className="peer-focus-visible/de:focus rounded-md bg-white px-2 py-1 text-gray-600 peer-checked/de:border-gray-800 peer-checked/de:bg-gray-200 peer-checked/de:font-semibold peer-checked/de:text-gray-800"
             >
               🇩🇪 DE
             </label>
