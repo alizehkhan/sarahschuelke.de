@@ -48,7 +48,7 @@ export const Contact = () => {
           <p>
             {t("footer.website-by")} {""}
             <a
-              href="https://alizehkhan.com"
+              href="https://linkedin.com/in/alizehkhan"
               target="_blank"
               className="focus-visible:focus rounded-md underline underline-offset-2"
               rel="noreferrer"
