@@ -37,6 +37,7 @@ export const About = () => {
               {t("about.paragraphs.two.suffix")}
             </p>
             <p className="mt-6 text-lg text-gray-600">
+              {t("about.paragraphs.three.prefix")}{" "}
               <span className="font-semibold text-amber-800">
                 {t("about.paragraphs.three.highlight")}
               </span>

@@ -9,20 +9,20 @@
   },
   "hero": {
     "title": "Wo Struktur auf Empathie trifft",
-    "subtitle": "Trainings, Coaching und Beratung für befähigte Teams und Führungskräfte."
+    "subtitle": "Trainings, Coaching und Beratung für empowered Teams und Führungskräfte."
   },
   "get-in-touch": "Kontakt aufnehmen",
   "quote": {
-    "prefix": "Ein Ende für Ineffizienz, Demotivation und",
-    "highlight": "ungenutztes Potenzial"
+    "prefix": "Schluss mit Ineffizienzen, Demotivation und",
+    "highlight": "ungenutztem Potential"
   },
   "offers": {
     "kicker": "Angebote",
-    "title": "Wege, wie wir zusammenarbeiten können",
+    "title": "Wie wir zusammenarbeiten können",
     "cards": [
       {
         "title": "Trainings & Coaching",
-        "description": "Ich unterstütze dabei, Einzelpersonen und Teams weiterzuentwickeln, damit sie exzellent werden - zum Beispiel in diesen Bereichen:",
+        "description": "Ich unterstütze Einzelpersonen und Teams dabei, sich weiterzuentwickeln und über sich hinauszuwachsen - z.B. in diesen Bereichen:",
         "items": [
           "Projekt- & Produktmanagement",
           "Teambuilding, Kommunikation & Zusammenarbeit",
@@ -31,7 +31,7 @@
       },
       {
         "title": "Moderation & Facilitation",
-        "description": "Schlecht moderierte Planungen, Workshops und Meetings schaden dem Unternehmenserfolg. Ich kann Sie unterstützen und/oder Sie trainieren, damit Sie zum Beispiel folgende Formate exzellent durchführen:",
+        "description": "Schlecht moderierte Plannings, Workshops und Meetings verhindern Unternehmenserfolg. Ich moderiere und/oder gebe diese Skills weiter, damit z.B. folgende Formate exzellent durchgeführt werden:",
         "items": [
           "OKR-Planung & Check-ins",
           "Agile Zeremonien wie Retrospektiven",
@@ -40,10 +40,10 @@
       },
       {
         "title": "Beratung & Prozessoptimierung",
-        "description": "Sie brauchen eine externe Perspektive auf ein konkretes Thema? Ich hinterfrage gerne den Status quo und liefere passgenaue Lösungen. Der Prozess umfasst zum Beispiel:",
+        "description": "Oft ist eine externe Perspektive Gold wert. Ich hinterfrage den Status quo und liefere passgenaue Optimierungen. Der Prozess umfasst u.a.:",
         "items": [
-          "Ineffizienzen, Wissenslücken und Optimierungspotenziale identifizieren",
-          "Wirkungsanalyse und weitere Verbesserungen"
+          "Ineffizienzen, Wissenslücken und OptimierungsPotentiale identifizieren",
+          "Verbesserungen ableiten & Implementierung begleiten"
         ]
       }
     ],
@@ -54,7 +54,7 @@
         "Praktisch, hands-on",
         "Einfach anwendbar, pragmatisch",
         "Undogmatisch",
-        "Reflektiert & inspirierend",
+        "Reflektierend & inspirierend",
         "Empathisch",
         "Empowernd"
       ]
@@ -62,11 +62,11 @@
   },
   "expertise": {
     "kicker": "Expertise",
-    "title": "Fähigkeiten, die ich Ihnen helfen kann aufzubauen",
+    "title": "Was wir aufbauen und verbessern können",
     "cards": [
       {
         "title": "Produkt- & Projektmanagement",
-        "description": "Skills aufs nächste Level bringen und typische Herausforderungen meistern, zum Beispiel:",
+        "description": "Skills aufs nächste Level bringen und typische Herausforderungen meistern, z.B.:",
         "items": [
           "Priorisierung & Entscheidungsfindung",
           "Stakeholder-Kommunikation & -Management",
@@ -75,7 +75,7 @@
       },
       {
         "title": "Teambuilding, Kommunikation & Zusammenarbeit",
-        "description": "Wie gut ein Team zusammenarbeitet, ist entscheidend für Produktivität und Effizienz. Deshalb brauchen manche Bereiche zeitweise besondere Aufmerksamkeit, zum Beispiel:",
+        "description": "Gute Teamkollaboration ist entscheidend für Produktivität und Effizienz. Manche Bereiche brauchen deshalb zeitweise besondere Aufmerksamkeit, z.B.:",
         "items": [
           "Teamzusammenhalt, Ziele & Alignment",
           "Bessere Kommunikation & Zusammenarbeit",
@@ -84,7 +84,7 @@
       },
       {
         "title": "Leadership & Management",
-        "description": "Führung bedeutet heute, beides zu balancieren und zu meistern: Menschen empathisch führen und zugleich den Geschäftserfolg sichern. Ich helfe zum Beispiel bei:",
+        "description": "Führung bedeutet, beides zu balancieren und zu meistern: Menschen empathisch führen und zugleich den Geschäftserfolg sichern. Ich helfe z.B. bei:",
         "items": [
           "Embodied Leadership",
           "Professionellem Beziehungsmanagement",
@@ -94,9 +94,9 @@
       }
     ],
     "zones-of-genius": {
-      "title": "Meine Zonen der Genialität sind...",
-      "one": "Potenziale, Muster und Schwächen identifizieren und umsetzbare Optimierungen implementieren",
-      "two": "Impact erzielen und gleichzeitig hohe Zufriedenheit, Motivation und gute Zusammenarbeit aufrechterhalten",
+      "title": "Meine \"Zones of Genius\"",
+      "one": "Potentiale & Muster identifizieren und umsetzbare Optimierungen ableiten",
+      "two": "Impact erzielen bei gleichzeitig hoher Zufriedenheit, Motivation und guter Zusammenarbeit",
       "three": "Beziehungsmanagement und Kommunikation",
       "four": "Struktur und Klarheit"
     }
@@ -112,44 +112,44 @@
     },
     "cards": [
       {
-        "title": "Effektive Projektzusammenarbeit",
+        "title": "Effektive Projektarbeit",
         "chips": ["📁 Projekte", "🤝🏼 Teams", "💬 Kommunikation"],
-        "description": "Lassen Sie uns Projekte mit klarer Kommunikation, hohem Commitment und engagierter Zusammenarbeit schaffen, in denen alle Bescheid wissen und gemeinsam an einem Strang ziehen. Für einen Projektalltag, der spürbar strukturierter, entspannter und angenehmer ist.",
+        "description": "Zeit für Projekte mit klarer Kommunikation, hohem Commitment und engagierter Zusammenarbeit, in denen alle Bescheid wissen und gemeinsam an einem Strang ziehen. Für einen Projektalltag, der spürbar strukturierter, entspannter und freudvoller ist.",
         "duration": "4 x 4 Stunden Sessions"
       },
       {
         "title": "Embodied Leadership",
         "chips": ["🦁 Leadership", "💪🏼 Power", "🧘🏼 Embodiment"],
-        "description": "Leadership-Trainings müssen nicht trocken und theoretisch sein. Für alle, die Embodied Leadership im und durch den Körper erleben möchten: Sie sind hier genau richtig. Eine Einladung, Macht und Wirkung anders zu erforschen und zu lernen, von einem Ort aus zu führen, dem Menschen gerne folgen.",
+        "description": "Leadership-Trainings müssen nicht trocken und theoretisch sein. Einfluss und Wirkung nicht nur über Sprache sondern auch über den Körper erforschen und lernen, von einem Ort aus zu führen, wo Menschen gerne folgen.",
         "duration": "4 Stunden"
       },
       {
-        "title": "Verbesserte Beziehungs- & Kommunikationsskills",
+        "title": "Upgrade für Beziehungs- & Kommunikationsskills",
         "chips": ["👥 Beziehungen", "💬 Kommunikation"],
-        "description": "Was führt zu mehr Zusammenarbeit und vertrauensvollen Arbeitsbeziehungen, in denen Menschen ihr Potenzial entfalten? Mehr zwischenmenschliche Wahrnehmung und Feinabstimmung sowie empfänger- und bedarfsorientierte Kommunikation sind nur einige Zutaten. Lernen Sie praxisnah, wo und wie Sie Ihre Skills gezielt auf das nächste Level bringen.",
+        "description": "Was führt zu besserer Zusammenarbeit und vertrauensvolleren Arbeitsbeziehungen, wo Menschen ihr volles Potential entfalten und motivierter arbeiten? Wir bringen praxisnah die wichtigen Skills auf's nächste Level.",
         "duration": "4 Stunden"
       },
       {
         "title": "Zeit für Exzellenz - Kleine Verbesserungen, große Wirkung",
         "chips": ["🪞 Reflexion", "⏱️ Selbstmanagement"],
-        "description": "Wenn Meeting-Marathons, endlose To-do-Listen, Reaktivität und zu wenig Zeit zum Nachdenken über die wirklich wichtigen Hebel den Alltag bestimmen, ist es Zeit für einen Kurswechsel. Ein paar kleine, praxiserprobte Verbesserungen können große Wirkung zeigen. So performen Sie besser und bleiben gleichzeitig entspannter, erfüllter und kreativer.",
+        "description": "Wenn Meeting-Marathons, endlose To-do-Listen, Reaktivität und zu wenig Zeit zum Nachdenken über die wirklich wichtigen Hebel den Arbeitsalltag bestimmen, ist es Zeit für einen Kurswechsel. Ein paar kleine, praxiserprobte Verbesserungen zeigen oft große Wirkung. So performen alle besser und bleiben gleichzeitig entspannter, erfüllter und kreativer.",
         "duration": "2 Stunden"
       },
       {
         "title": "Das Geheimnis großartiger Teams",
         "chips": ["🤝🏼 Teams", "🌱 Soft Skills"],
-        "description": "Vielleicht haben Sie gängige Best Practices für High-Performing Teams bereits umgesetzt und spüren trotzdem: Da geht noch mehr. Aber wie lässt sich dieses Potenzial heben? Schauen wir auf die (gar nicht so) \"geheimen\" Zutaten, die oft vernachlässigt werden. Lernen wir, wie sich diese \"weichen\" Faktoren und Rituale einführen lassen, damit spürbare Wirkung entsteht.",
+        "description": "Vielleicht haben Sie gängige Best Practices für High-Performing Teams bereits umgesetzt und spüren trotzdem: Da geht mehr. Aber wie lässt sich dieses Potential heben? Schauen wir auf die (gar nicht so) \"geheimen\" Zutaten, die oft vernachlässigt werden. Wir lernen, wie sich diese \"weichen\" Faktoren und Rituale einführen lassen, damit spürbare Wirkung entsteht.",
         "duration": "3 Stunden"
       }
     ],
     "cta": {
       "title": "Nicht das Richtige dabei?",
-      "description": "Ich entwickle sehr gerne Lösungen, die auf Ihre individuellen Bedürfnisse zugeschnitten sind. Lassen Sie uns sprechen, damit ich ein perfekt passendes Angebot für Sie entwickeln kann."
+      "description": "Ich freue mich darauf, in einem kostenlosen Beratungsgespräch Ihre Herausforderungen zu verstehen und dann eine Lösung zu entwickeln, die perfekt auf Ihre Bedürfnisse passt."
     }
   },
   "testimonials": {
     "kicker": "Referenzen",
-    "title": "Was meine Kunden sagen",
+    "title": "Was meine Kund:innen sagen",
     "tags": {
       "in-person": "Vor Ort",
       "training-series": "Trainingsreihe"
@@ -161,7 +161,7 @@
         "suffix": ", und viele haben die neuen Ideen und Methoden sofort umgesetzt."
       },
       "two": {
-        "highlight": "Sarah schafft es, komplexe Inhalte lebendig, strukturiert und verständlich zu vermitteln.",
+        "highlight": "Sarah schafft es, komplexe Inhalte lebendig, strukturiert und verständlich zu vermitteln. ",
         "suffix": "Ihre freundliche, offene Art und die angenehme, sichere Atmosphäre, die sie im Raum schafft, haben einen ehrlichen und inspirierenden Austausch ermöglicht. Wir empfehlen Sarahs Training von Herzen - für alle Teams, die ihre Zusammenarbeit verbessern und nachhaltige Veränderung im Unternehmen erreichen wollen."
       }
     },
@@ -171,31 +171,32 @@
   },
   "about": {
     "kicker": "Über mich",
-    "title": "Hi, ich bin Sarah",
+    "title": "Hi, ich bin Sarah.",
     "tagline": "Trainerin. Coach. Beraterin.",
-    "subtitle": "Mit einer starken Erfolgsbilanz im Aufbau und in der Führung erfolgreicher Produkte und Teams.",
+    "subtitle": "Mit starker Erfolgsbilanz im Aufbau und Management erfolgreicher Produkte und Teams.",
     "paragraphs": {
       "one": {
-        "prefix": "Ich habe eine besondere Fähigkeit, auch in komplexen Situationen schnell zu analysieren und empathisch zu erfassen. Seit über 10 Jahren",
-        "highlight": "gehört es zu meinem Kerngeschäft, klare Visionen zu entwickeln und Strategien verlässlich umzusetzen",
-        "suffix": ". Für mich am wichtigsten: vorwärtskommen und dabei alle ausgerichtet, motiviert und an Bord halten - durch die Stärkung individueller Potenziale."
+        "prefix": "Es fällt mir erstaunlich leicht, selbst komplexe Situationen schnell und zugleich empathisch zu erfassen. Seit über 10 Jahren ist das ",
+        "highlight": "Optimieren von Prozessen und Zusammenarbeit mein absolutes Steckenpferd",
+        "suffix": ". Für mich dabei immer wichtig: während wir vorankommen, umsetzen und optimieren, sicherzustellen, dass alle ausgerichtet, motiviert und an Bord sind und bleiben."
       },
       "two": {
-        "prefix": "Man kennt mich für meine strukturierte, lösungsorientierte Arbeitsweise. Gleichzeitig schätzen viele",
-        "highlight": "meine Fähigkeit, Menschen einbezogen, gehört und gesehen zu fühlen",
+        "prefix": "Menschen schätzen meine strukturierte, lösungsorientierte, pragmatische Arbeitsweise. Gleichzeitig wird oft bewundert, mit welcher Leichtigkeit ich es schaffe, eine Atmosphäre zu kreieren, in der",
+        "highlight": "sich Menschen gesehen und gehört fühlen",
         "suffix": ". Meine Workshops und Facilitationen bringen nachweislich Klarheit, Alignment und Fokus - und machen dabei auch noch Spaß."
       },
       "three": {
-        "highlight": "Die Arbeit in einem schnell wachsenden, börsennotierten Unternehmen hat mich gelehrt, effizient und wirksam zu handeln",
-        "suffix": ", und damit echten Mehrwert für Kundinnen, Kunden und das Unternehmen zu schaffen. Ich verbessere gerne Prozesse und Zusammenarbeit und freue mich auf neue Herausforderungen sowie auf Lösungen, die einfach funktionieren."
+        "prefix": "Die Arbeit in einem schnell wachsenden, börsennotierten Unternehmen hat mich gelehrt,",
+        "highlight": " effizient und impact-orientiert zu agieren",
+        "suffix": ", und echten Mehrwert für Kund:innen und das Unternehmen zu schaffen. Neuen Herausforderungen sehe ich mit Neugier entgegen und freue mich darauf, Lösungen, zu entwickeln, die einfach funktionieren."
       },
-      "four": "Und jetzt bin ich neugierig: Wie kann ich Ihnen helfen?"
+      "four": "Und jetzt bin ich neugierig: Wie kann ich Sie unterstützen?"
     }
   },
   "contact": {
     "kicker": "Kontakt",
     "title": "Kontakt aufnehmen",
-    "description": "Alle meine Workshops können leicht angepasst werden und können sowohl persönlich als auch online angeboten werden. Ich freue mich darauf, Ihre Bedürfnisse zu erkunden und eine Lösung zu erstellen, die perfekt passt."
+    "description": "Alle meine Workshops können leicht angepasst werden und können sowohl persönlich als auch online angeboten werden. Ich freue mich darauf, Ihre Bedürfnisse zu erkunden und eine Lösung zu kreieren, die perfekt passt."
   },
   "footer": {
     "legal": "Impressum",
