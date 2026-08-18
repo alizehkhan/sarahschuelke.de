@@ -198,6 +198,174 @@
     "title": "Get in touch",
     "description": "All my workshops can be easily adapted, and can be offered both in-person or online. I'm happy to explore your needs and create a solution that fits perfectly."
   },
+  "retreat": {
+    "meta": {
+      "title": "The Clarity Retreat - Sarah Schülke"
+    },
+    "hero": {
+      "kicker": "Personal Growth Retreat",
+      "title": "The Clarity Retreat",
+      "subtitle": "Four days to step out of the noise, reconnect with yourself, and return with a clear head and a plan that's truly yours.",
+      "dates": "11-14 June 2026",
+      "location": "Uckermark, near Berlin",
+      "spots": "Only 10 spots",
+      "cta": "Reserve your spot"
+    },
+    "intro": {
+      "kicker": "Why this retreat",
+      "title": "You don't need more hustle. You need space to think.",
+      "paragraph": "Between back-to-back meetings, other people's priorities, and the quiet pressure to always have it together, it's easy to lose touch with what you actually want. This retreat is a deliberate pause - four days away from your inbox, in a small group, to reflect, reset, and get honest with yourself about what's next.",
+      "for-who": {
+        "title": "This retreat is for you if...",
+        "items": [
+          "You're successful on paper, but something still feels off",
+          "You're at a crossroads - in your career or your life - and want clarity before you decide",
+          "You crave real reflection time, not another productivity hack",
+          "You want to reconnect with your body, not just your to-do list",
+          "You're ready to be honest with yourself, in good company"
+        ]
+      }
+    },
+    "highlights": {
+      "kicker": "What's included",
+      "title": "Four days, fully held",
+      "cards": [
+        {
+          "title": "Guided Reflection Sessions",
+          "description": "Structured 1:1 and small-group sessions to help you get clear on what matters and what's next.",
+          "items": [
+            "Values & priorities work",
+            "Life and career audit",
+            "A concrete plan to take home"
+          ]
+        },
+        {
+          "title": "Embodiment & Movement",
+          "description": "Gentle practices to help you reconnect with your body and access insights that thinking alone can't reach.",
+          "items": ["Morning movement sessions", "Breathwork", "Time in nature"]
+        },
+        {
+          "title": "Small-Group Coaching Circles",
+          "description": "Held, confidential spaces to be witnessed and to learn from others going through similar transitions.",
+          "items": [
+            "Max. 10 participants",
+            "Peer coaching exercises",
+            "Honest, judgment-free exchange"
+          ]
+        },
+        {
+          "title": "Rest, Food & Space",
+          "description": "Everything is taken care of, so all you need to bring is yourself.",
+          "items": [
+            "Private room & full board",
+            "Nourishing, seasonal meals",
+            "Unstructured downtime"
+          ]
+        }
+      ]
+    },
+    "itinerary": {
+      "kicker": "The flow",
+      "title": "A day-by-day look",
+      "days": [
+        {
+          "day": "Day 1",
+          "title": "Arrival & Grounding",
+          "description": "Arrive, settle in, and shift gears. We open with a welcome circle and a first gentle movement session to leave the everyday behind.",
+          "items": ["Arrival & welcome dinner", "Opening circle", "Evening reflection"]
+        },
+        {
+          "day": "Day 2",
+          "title": "Clarity",
+          "description": "We dig into what's really going on - your values, your patterns, and where things feel stuck. Expect honest conversations and a few surprising insights.",
+          "items": ["Morning movement", "Values & priorities workshop", "1:1 coaching slot"]
+        },
+        {
+          "day": "Day 3",
+          "title": "Integration",
+          "description": "A quieter day to let things settle, with space for nature, rest, and small-group coaching circles to test new ways of thinking out loud.",
+          "items": ["Free morning / nature walk", "Coaching circles", "Optional 1:1 sessions"]
+        },
+        {
+          "day": "Day 4",
+          "title": "Departure With A Plan",
+          "description": "We close by turning insight into a concrete, realistic plan - so the clarity doesn't stay behind when you leave.",
+          "items": ["Planning session", "Closing circle", "Departure after lunch"]
+        }
+      ]
+    },
+    "host": {
+      "kicker": "Your host",
+      "title": "Hosted by Sarah",
+      "paragraphs": [
+        "I've spent over a decade helping people and teams get unstuck - as a product leader, and now as a trainer, coach, and consultant. I know first-hand how easy it is to keep performing while quietly losing touch with what you actually want.",
+        "I created this retreat because the best clarity rarely happens in a 45-minute call between meetings. It needs space, distance, and honest company - which is exactly what I want to give you these four days."
+      ]
+    },
+    "testimonial": {
+      "kicker": "In their words",
+      "quote": {
+        "prefix": "I came in exhausted and unsure, and left with",
+        "highlight": "more clarity about my next career step than a year of thinking on my own had given me",
+        "suffix": ". Sarah creates a space where you can actually be honest with yourself - and the group made it feel safe to do that."
+      },
+      "name": "Former retreat participant",
+      "role": "Placeholder - swap for a real quote & name"
+    },
+    "pricing": {
+      "kicker": "Investment",
+      "title": "Your investment",
+      "price": "€1,450",
+      "price-note": "per person - shared, beautiful accommodation",
+      "includes": {
+        "title": "Included",
+        "items": [
+          "3 nights, private room",
+          "Full board - breakfast, lunch, dinner, snacks",
+          "All sessions, materials & coaching",
+          "Movement & embodiment sessions"
+        ]
+      },
+      "cta": "Reserve your spot",
+      "note": "A €300 deposit secures your spot. Payment plans available - just ask."
+    },
+    "faq": {
+      "kicker": "FAQ",
+      "title": "Good to know",
+      "items": [
+        {
+          "q": "Do I need coaching experience?",
+          "a": "Not at all. This retreat is designed for driven people who want space to reflect, whether or not you've worked with a coach before."
+        },
+        {
+          "q": "What fitness level do I need?",
+          "a": "None. Movement sessions are gentle and everything is optional - you're welcome to sit them out and rest instead."
+        },
+        {
+          "q": "Can I come alone?",
+          "a": "Yes - most participants do. You'll be part of a small, supportive group from day one."
+        },
+        {
+          "q": "What's your cancellation policy?",
+          "a": "Full refund up to 6 weeks before the retreat, 50% up to 2 weeks before. After that, your deposit can be transferred to a future retreat."
+        },
+        {
+          "q": "What should I bring?",
+          "a": "Comfortable clothing, weather-appropriate layers, a journal, and an open mind. A full packing list is sent after booking."
+        },
+        {
+          "q": "Is this only for women?",
+          "a": "No - this retreat is open to everyone ready to do honest, reflective work in good company."
+        }
+      ]
+    },
+    "final-cta": {
+      "prefix": "Give yourself four days for",
+      "highlight": "real clarity",
+      "spots-note": "Only 10 spots - once they're gone, the next retreat won't be until later this year.",
+      "cta": "Reserve your spot"
+    }
+  },
   "footer": {
     "legal": "Legal Notice",
     "privacy": "Privacy Policy",

@@ -9,10 +9,16 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as RetreatRouteImport } from './routes/retreat'
 import { Route as PrivacyRouteImport } from './routes/privacy'
 import { Route as LegalRouteImport } from './routes/legal'
 import { Route as IndexRouteImport } from './routes/index'
 
+const RetreatRoute = RetreatRouteImport.update({
+  id: '/retreat',
+  path: '/retreat',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const PrivacyRoute = PrivacyRouteImport.update({
   id: '/privacy',
   path: '/privacy',
@@ -33,34 +39,45 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/legal': typeof LegalRoute
   '/privacy': typeof PrivacyRoute
+  '/retreat': typeof RetreatRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/legal': typeof LegalRoute
   '/privacy': typeof PrivacyRoute
+  '/retreat': typeof RetreatRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/legal': typeof LegalRoute
   '/privacy': typeof PrivacyRoute
+  '/retreat': typeof RetreatRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/legal' | '/privacy'
+  fullPaths: '/' | '/legal' | '/privacy' | '/retreat'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/legal' | '/privacy'
-  id: '__root__' | '/' | '/legal' | '/privacy'
+  to: '/' | '/legal' | '/privacy' | '/retreat'
+  id: '__root__' | '/' | '/legal' | '/privacy' | '/retreat'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   LegalRoute: typeof LegalRoute
   PrivacyRoute: typeof PrivacyRoute
+  RetreatRoute: typeof RetreatRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/retreat': {
+      id: '/retreat'
+      path: '/retreat'
+      fullPath: '/retreat'
+      preLoaderRoute: typeof RetreatRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/privacy': {
       id: '/privacy'
       path: '/privacy'
@@ -89,6 +106,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   LegalRoute: LegalRoute,
   PrivacyRoute: PrivacyRoute,
+  RetreatRoute: RetreatRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
