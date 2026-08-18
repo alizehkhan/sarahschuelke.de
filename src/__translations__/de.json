@@ -198,6 +198,174 @@
     "title": "Kontakt aufnehmen",
     "description": "Alle meine Workshops können leicht angepasst werden und können sowohl persönlich als auch online angeboten werden. Ich freue mich darauf, Ihre Bedürfnisse zu erkunden und eine Lösung zu kreieren, die perfekt passt."
   },
+  "retreat": {
+    "meta": {
+      "title": "Das Clarity Retreat - Sarah Schülke"
+    },
+    "hero": {
+      "kicker": "Retreat für persönliches Wachstum",
+      "title": "Das Clarity Retreat",
+      "subtitle": "Vier Tage, um aus dem Alltagslärm auszusteigen, bei sich anzukommen und mit einem klaren Kopf und einem Plan zurückzukehren, der wirklich zu Ihnen passt.",
+      "dates": "11.-14. Juni 2026",
+      "location": "Uckermark, nahe Berlin",
+      "spots": "Nur 10 Plätze",
+      "cta": "Platz sichern"
+    },
+    "intro": {
+      "kicker": "Warum dieses Retreat",
+      "title": "Sie brauchen nicht mehr Hustle. Sie brauchen Raum zum Nachdenken.",
+      "paragraph": "Zwischen dicht getakteten Meetings, den Prioritäten anderer und dem stillen Druck, immer alles im Griff zu haben, verliert man leicht den Kontakt zu dem, was man wirklich will. Dieses Retreat ist eine bewusste Pause - vier Tage weg vom Posteingang, in kleiner Gruppe, um zu reflektieren, neu anzusetzen und ehrlich mit sich selbst zu werden.",
+      "for-who": {
+        "title": "Dieses Retreat ist für Sie, wenn...",
+        "items": [
+          "Sie auf dem Papier erfolgreich sind, aber trotzdem etwas fehlt",
+          "Sie an einem Scheideweg stehen - beruflich oder privat - und vor einer Entscheidung Klarheit wollen",
+          "Sie sich echte Reflexionszeit wünschen, statt eines weiteren Produktivitäts-Hacks",
+          "Sie sich wieder mit Ihrem Körper verbinden wollen, nicht nur mit Ihrer To-do-Liste",
+          "Sie bereit sind, sich in guter Gesellschaft ehrlich zu begegnen"
+        ]
+      }
+    },
+    "highlights": {
+      "kicker": "Das ist inklusive",
+      "title": "Vier Tage, rundum begleitet",
+      "cards": [
+        {
+          "title": "Begleitete Reflexionssessions",
+          "description": "Strukturierte Einzel- und Kleingruppensessions, um Klarheit über das zu gewinnen, was zählt - und was als Nächstes kommt.",
+          "items": [
+            "Arbeit an Werten & Prioritäten",
+            "Karriere- & Lebens-Check-up",
+            "Ein konkreter Plan zum Mitnehmen"
+          ]
+        },
+        {
+          "title": "Embodiment & Bewegung",
+          "description": "Sanfte Praktiken, um wieder in Kontakt mit dem eigenen Körper zu kommen - und Einsichten zu gewinnen, die reines Nachdenken nicht liefert.",
+          "items": ["Morgendliche Bewegungssessions", "Atemarbeit", "Zeit in der Natur"]
+        },
+        {
+          "title": "Coaching-Kreise in Kleingruppen",
+          "description": "Geschützte, vertrauliche Räume, um gesehen zu werden und von anderen in ähnlichen Übergängen zu lernen.",
+          "items": [
+            "Max. 10 Teilnehmende",
+            "Peer-Coaching-Übungen",
+            "Ehrlicher Austausch ohne Bewertung"
+          ]
+        },
+        {
+          "title": "Ruhe, Verpflegung & Raum",
+          "description": "Um alles Organisatorische kümmern wir uns - Sie müssen nur sich selbst mitbringen.",
+          "items": [
+            "Eigenes Zimmer & Vollpension",
+            "Nährende, saisonale Küche",
+            "Unverplante Auszeiten"
+          ]
+        }
+      ]
+    },
+    "itinerary": {
+      "kicker": "Der Ablauf",
+      "title": "Ein Blick auf die Tage",
+      "days": [
+        {
+          "day": "Tag 1",
+          "title": "Ankommen & Erden",
+          "description": "Ankommen, sich einrichten, einen Gang runterschalten. Wir starten mit einem Willkommenskreis und einer ersten sanften Bewegungssession, um den Alltag hinter sich zu lassen.",
+          "items": ["Ankunft & Willkommensdinner", "Eröffnungskreis", "Abendliche Reflexion"]
+        },
+        {
+          "day": "Tag 2",
+          "title": "Klarheit",
+          "description": "Wir gehen dem auf den Grund, was wirklich los ist - Ihre Werte, Ihre Muster, und wo es gerade hakt. Ehrliche Gespräche und die ein oder andere überraschende Erkenntnis inklusive.",
+          "items": ["Morgendliche Bewegung", "Workshop zu Werten & Prioritäten", "1:1-Coaching-Slot"]
+        },
+        {
+          "day": "Tag 3",
+          "title": "Integration",
+          "description": "Ein ruhigerer Tag, an dem sich das Erlebte setzen kann - mit Raum für Natur, Ruhe und Coaching-Kreise, um neue Denkweisen laut auszuprobieren.",
+          "items": ["Freier Vormittag / Naturspaziergang", "Coaching-Kreise", "Optionale 1:1-Sessions"]
+        },
+        {
+          "day": "Tag 4",
+          "title": "Abreise mit Plan",
+          "description": "Zum Abschluss übersetzen wir Erkenntnisse in einen konkreten, realistischen Plan - damit die Klarheit nicht zurückbleibt, wenn Sie abreisen.",
+          "items": ["Planungssession", "Abschlusskreis", "Abreise nach dem Mittagessen"]
+        }
+      ]
+    },
+    "host": {
+      "kicker": "Ihre Gastgeberin",
+      "title": "Veranstaltet von Sarah",
+      "paragraphs": [
+        "Seit über zehn Jahren unterstütze ich Menschen und Teams dabei, aus festgefahrenen Situationen herauszufinden - als Produktverantwortliche und heute als Trainerin, Coach und Beraterin. Ich weiß aus eigener Erfahrung, wie leicht man weiter funktioniert, während man den Kontakt zu dem verliert, was man eigentlich will.",
+        "Dieses Retreat ist entstanden, weil echte Klarheit selten in einem 45-minütigen Call zwischen zwei Meetings entsteht. Sie braucht Raum, Abstand und ehrliche Gesellschaft - genau das möchte ich Ihnen an diesen vier Tagen schenken."
+      ]
+    },
+    "testimonial": {
+      "kicker": "Stimmen von Teilnehmenden",
+      "quote": {
+        "prefix": "Ich kam erschöpft und unsicher an und bin gegangen mit",
+        "highlight": "mehr Klarheit über meinen nächsten Karriereschritt, als mir ein Jahr eigenes Grübeln gebracht hatte",
+        "suffix": ". Sarah schafft einen Raum, in dem man wirklich ehrlich zu sich selbst sein kann - und die Gruppe hat sich dafür sicher angefühlt."
+      },
+      "name": "Ehemalige Retreat-Teilnehmerin",
+      "role": "Platzhalter - durch echtes Zitat & Namen ersetzen"
+    },
+    "pricing": {
+      "kicker": "Investition",
+      "title": "Ihre Investition",
+      "price": "1.450 €",
+      "price-note": "pro Person - in schöner, geteilter Unterkunft",
+      "includes": {
+        "title": "Inklusive",
+        "items": [
+          "3 Nächte im Einzelzimmer",
+          "Vollpension - Frühstück, Mittag-, Abendessen, Snacks",
+          "Alle Sessions, Materialien & Coaching",
+          "Bewegungs- & Embodiment-Einheiten"
+        ]
+      },
+      "cta": "Platz sichern",
+      "note": "Eine Anzahlung von 300 € sichert Ihren Platz. Ratenzahlung auf Anfrage möglich."
+    },
+    "faq": {
+      "kicker": "FAQ",
+      "title": "Gut zu wissen",
+      "items": [
+        {
+          "q": "Brauche ich Coaching-Erfahrung?",
+          "a": "Nein. Dieses Retreat ist für ambitionierte Menschen gemacht, die Raum zum Reflektieren suchen - unabhängig davon, ob Sie bereits mit einem Coach gearbeitet haben."
+        },
+        {
+          "q": "Welches Fitnesslevel brauche ich?",
+          "a": "Keins. Die Bewegungseinheiten sind sanft und alles ist optional - Sie können jederzeit pausieren und stattdessen ruhen."
+        },
+        {
+          "q": "Kann ich alleine kommen?",
+          "a": "Ja - die meisten Teilnehmenden tun das. Sie sind von Anfang an Teil einer kleinen, unterstützenden Gruppe."
+        },
+        {
+          "q": "Wie sind die Stornobedingungen?",
+          "a": "Volle Rückerstattung bis 6 Wochen vor dem Retreat, 50 % bis 2 Wochen vorher. Danach kann Ihre Anzahlung auf ein zukünftiges Retreat übertragen werden."
+        },
+        {
+          "q": "Was soll ich mitbringen?",
+          "a": "Bequeme Kleidung, wetterfeste Schichten, ein Notizbuch und Offenheit. Eine vollständige Packliste erhalten Sie nach der Buchung."
+        },
+        {
+          "q": "Ist das Retreat nur für Frauen?",
+          "a": "Nein - dieses Retreat steht allen offen, die bereit sind, in guter Gesellschaft ehrlich und reflektiert an sich zu arbeiten."
+        }
+      ]
+    },
+    "final-cta": {
+      "prefix": "Schenken Sie sich vier Tage für",
+      "highlight": "echte Klarheit",
+      "spots-note": "Nur 10 Plätze - sind sie vergeben, findet das nächste Retreat erst später im Jahr statt.",
+      "cta": "Platz sichern"
+    }
+  },
   "footer": {
     "legal": "Impressum",
     "privacy": "Datenschutz",
